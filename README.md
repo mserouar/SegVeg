@@ -2,27 +2,25 @@
 
 <div align="center">
 
-![logo](https://i.ibb.co/dc1XdhT/Segmentation-Models-V2-Side-1-1.png)   ### AD LIEN SegVeg
-**Python module for Senescent Vegetation Image Segmentation based on [SVM](https://scikit-learn.org/).**
-
-<br>
-[![Scikit-learn - Version](https://img.shields.io/badge/SCIKIT-1.4+-red?style=for-the-badge&logo=scikit-learn)](https://pypi.org/project/scikit-learn) 
-[![Python - Version](https://img.shields.io/badge/PYTHON-3.6+-red?style=for-the-badge&logo=python&logoColor=white)]
+![logo](https://i.ibb.co/dc1XdhT/Segmentation-Models-V2-Side-1-1.png)
+**Python module for Senescent Vegetation Image Segmentation based on SVM.**
 
 </div>
 
-### [📚 Abstract 📚](DOI papier)
+### 📚 Abstract
 
 ABSTRACT
 
 ### ⏳ Useful information <a name="start"></a>
 
 The method proposed in [[paper](https://arxiv.org/abs/1505.04597)]  may be described in two stages. 
-In the first stage, the whole image is classified into Vegetation/Background mask using a U-net type Deep Learning network. 
+
+In the first stage, the whole image is classified into Vegetation/Background mask using a U-net type Deep Learning network.
+ 
 Then, the vegetation pixels are classified into Green/Senescent vegetation using a SVM. 
 
 However, you will find here the only Second stage (yellow in Figure above).
-To perform the first stage, please find more information on : WORK IN PROGRESS.
+To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
 
 ### 📦 DATA <a name="models"></a>
 
@@ -30,7 +28,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 #### 1. Features
 
- - xx and yy : Pixels position according to PIL Images /!\ Not same in cv2 /!\
+ - xx and yy : Pixels position according to PIL Images ⚠️ Not same in cv2 ⚠️
  - R, G, B : from RGB channels
  - H, S : from HSL channels
  - a, b : from CIELab channels
@@ -43,6 +41,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 #### 2. DATA
 
 [[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML in [[paper](https://arxiv.org/abs/1505.04597)]
+
 [[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn in [[paper](https://arxiv.org/abs/1505.04597)]
 
 [[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and trained/test repartition
@@ -101,6 +100,7 @@ If you find this work useful in your research, please cite either :
 
 #### 1. Launch the module
 
+
 Positional arguments:
 
   input_folder          Directory of the session you want to process :
@@ -109,6 +109,7 @@ Positional arguments:
   configuration_file    Configuration file for hyperparameters tuning : 
 			"PATH/FROM/GITHUB/config/yellowConfiguration.json"
                         
+```
 EXAMPLE :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
 
 ```
@@ -126,7 +127,7 @@ relative_paths
 model_parameters
 
  - path_tofind : Path to find the trained - Green and Yellow vegetation - model
- - n_cores : Number of cpu core used to predict pixels class /!\ Deprecated if you use the non parallelize but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) /!\
+ - n_cores : Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelize but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️
  - thresh : Set the probability threshold of binary model to handle sensitivity
  - contrasted : If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image
 
