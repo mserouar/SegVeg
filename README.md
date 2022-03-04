@@ -7,7 +7,7 @@
 
 </div>
 
-### 📚 Abstract
+## 📚 Abstract
 
 ABSTRACT
 
@@ -22,7 +22,7 @@ Then, the vegetation pixels are classified into Green/Senescent vegetation using
 However, you will find here the only Second stage (yellow in Figure above).
 To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
 
-### 📦 DATA <a name="models"></a>
+## 📦 DATA <a name="models"></a>
 
 All freely available DATA could be found in the [[docs](https://smp.readthedocs.io/en/latest/models.html#unet)] folder.
 
@@ -54,7 +54,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 [[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test Session 
 
-### 📝 Citing
+## 📝 Citing
 
 If you find this work useful in your research, please cite either :
 
@@ -96,7 +96,7 @@ If you find this work useful in your research, please cite either :
 % 	year = {2021}
 % }
 ```
-### 🚲 How to use
+## 🚲 How to use
 
 #### 1. Launch the module
 
@@ -113,7 +113,7 @@ Positional arguments:
 EXAMPLE :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
 
 ```
-#### 1. Understanding the config file
+#### 2. Understanding the config file
 
 relative_paths
 
@@ -135,7 +135,7 @@ model_parameters
 CAMERA 45 REMOVED ? 
 
 
-### 🛠 Installation <a name="installation"></a>
+## 🛠 Installation <a name="installation"></a>
 
 We recommend installing this module into a dedicated Python virtual environment to avoid dependency
 conflicts or polluting the global Python distribution.
