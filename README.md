@@ -44,20 +44,20 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 #### 2. DATA
 
-	__MODELS__
+	MODELS
 
 [[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML GPU in paper
 
 [[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU in paper
 
-	__PIXELS CSV__ 
+	PIXELS CSV 
 
 [[VERY_ALL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in paper
 
 [[USED](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent Veg.) used to perform accuracy model in paper and train/test repartition information
 
 
-	__RGB IMAGES AND MASKS__
+	RGB IMAGES AND MASKS
 
 [[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in paper
 
@@ -66,7 +66,7 @@ All colorspaces transformations are available in native script ```src/yellowgree
 [[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in paper
 
 
-	__Ready-to-use__
+	Ready-to-use
 
 [[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test Session 
 
@@ -105,7 +105,7 @@ EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-0
 
 #### 2. Understanding the config file
 
-	__relative_paths__
+	relative_paths
 
 | Item    | Description           | 
 | :------------- |:-------------|
@@ -116,12 +116,12 @@ EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-0
 | output      | Path in output_folder (l2) to save raw segmentation | 
 
 
-	__model_parameters__
+	model_parameters
 
 | Item    | Description           | 
 | :------------- |:-------------|
 | path_tofind      | Path to find the trained - Green and Yellow vegetation - model | 
-| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelized but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
+| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelized but GPU based model_cuML (need to be installed according to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
 | thresh       | Set the probability threshold of binary model to handle sensitivity | 
 | contrasted       | If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image | 
 
