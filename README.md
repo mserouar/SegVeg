@@ -18,7 +18,7 @@ The method proposed in [[paper](https://arxiv.org/abs/1505.04597)]  may be descr
 In the first stage, the whole image is classified into Vegetation/Background mask using a U-net type Deep Learning network.
 Then, the vegetation pixels are classified into Green/Senescent vegetation using a SVM. 
 
-However, you will find here the only Second stage (yellow in Figure above).
+However, you will only find here the Second stage (yellow in Figure above).
 To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
 
 ## 📦 DATA <a name="models"></a>
@@ -44,19 +44,31 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 #### 2. DATA
 
-[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML in [[paper](https://arxiv.org/abs/1505.04597)]
+| Models    | Description           | 
+| :------------- |:-------------|
+| [[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)]     |  Green/Senescent vegetation SVM model built with RAPIDs | cuML in [[paper](https://arxiv.org/abs/1505.04597)] | 
+| [[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)]    | Green/Senescent vegetation SVM model built with Scikit-learn in [[paper](https://arxiv.org/abs/1505.04597)]   | 
 
-[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn in [[paper](https://arxiv.org/abs/1505.04597)]
 
-[[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and trained/test repartition
-[[CSV TEST](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
-[[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test + Soil/Background pixels + Soil used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] remove ALL
+| PIXELS CSV    | Description           | 
+| :------------- |:-------------|
+| [[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)]    |  Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and trained/test repartition | 
+| [[CSV TEST](https://smp.readthedocs.io/en/latest/models.html#unet)]  | Test pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]    | 
+| [[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)]    | Test + Soil/Background pixels + Soil used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]  |
 
-[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
-[[PHENOMOBILE](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from PHENOMOBILE domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
-[[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
 
-[[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test Session 
+| RGB IMAGES AND MASKS   | Description           | 
+| :------------- |:-------------|
+| [[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)]   |   RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] | 
+| [[PHENOMOBILE](https://smp.readthedocs.io/en/latest/models.html#unet)] | RGB images and Vegetation/Background masks from PHENOMOBILE domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]    | 
+| [[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)]   | RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]  |
+
+
+| Ready-to-use   | Description           | 
+| :------------- |:-------------|
+| [[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)]   |   Test Session  | 
+
+
 
 ## 📝 Citing
 
