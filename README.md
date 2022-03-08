@@ -40,7 +40,8 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 | Features      | Description           | 
 | :------------- |:-------------|
-| xx and yy      | Pixels position according to PIL Images ⚠️ Not same in cv2 ⚠️ | 
+| xx and yy      | Pixels position according to PIL Images 
+⚠️ Not same in cv2 ⚠️ | 
 | R, G, B      | from RGB channels      | 
 | H, S  | from HSL channels      |
 | a, b | from CIELab channels     |
