@@ -52,7 +52,11 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 	__PIXELS CSV__ 
 
 [[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and trained/test repartition
+
+
 [[CSV TEST](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
+
+
 [[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test + Soil/Background pixels + Soil used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
 	__RGB IMAGES AND MASKS__ 
