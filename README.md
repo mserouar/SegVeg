@@ -40,17 +40,17 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 | I, Q  | from YIQ channels     |
 | Y  | Pixel labelled manually class   |
 
-
+All colorspaces transformations are available in native script ```src/yellowgreenmulti/yellowgreenmultiutils.py``` or additionnal utils functions ```src/yellowgreenmulti/util_fonctions.py```
 
 #### 2. DATA
 
-	**__MODELS__**
+	__MODELS__
 
 [[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML in [[paper](https://arxiv.org/abs/1505.04597)]
 
 [[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn in [[paper](https://arxiv.org/abs/1505.04597)]
 
-	**__PIXELS CSV__** 
+	__PIXELS CSV__ 
 
 [[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and trained/test repartition
 
@@ -58,7 +58,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 [[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test + Soil/Background pixels + Soil used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
-	**__RGB IMAGES AND MASKS__** 
+	__RGB IMAGES AND MASKS__
 
 [[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
 
@@ -67,7 +67,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 [[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
 
 
-	**__Ready-to-use__** 
+	__Ready-to-use__
 
 [[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test Session 
 
@@ -125,25 +125,24 @@ If you find this work useful in your research, please cite either :
 
 
 ```
-EXAMPLE :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
+EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
 ```
 
 #### 2. Understanding the config file
 
-	**__relative_paths__**
+	__relative_paths__
 
 | Item    | Description           | 
 | :------------- |:-------------|
-| metadata      | | 
 | rgb_images       | Path in input_folder where to find RGB images | 
 | vegetation_masks       | Path in input_folder where to find RGB images | 
 | rgb_images       | Path in input_folder where to find binary whole -Green and Senescent- vegetation masks (0 and 1, instead of 0 and 255) | 
 | visualisation       | Path in input_folder where to find overlay visualisation results | 
-| output       | Output results folder | 
-| log       | Folder to save log infos in l2 folder | 
+| log       | Folder to save log infos | 
+| output      | l2 folder to save raw segmentation | 
 
 
-	**__model_parameters__**
+	__model_parameters__
 
 | Item    | Description           | 
 | :------------- |:-------------|
@@ -152,9 +151,7 @@ EXAMPLE :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-1
 | thresh       | Set the probability threshold of binary model to handle sensitivity | 
 | contrasted       | If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image | 
 
-
-CAMERA 45 REMOVED ? 
-
+Outputs files are located in l1/
 
 ## 🛠 Installation <a name="installation"></a>
 
