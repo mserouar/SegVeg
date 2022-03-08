@@ -30,7 +30,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 | Features      | Description           | 
 | :------------- |:-------------|
-| xx, yy      | Pixels position according to PIL Images ⚠️ Reversed in cv2 ⚠️ | 
+| xx, yy      | Pixels position according to PIL Images ⚠️ Reversed in cv2 ⚠️. More information on : https://pillow.readthedocs.io/en/stable/handbook/concepts.html#coordinate-system | 
 | R, G, B      | from RGB channels      | 
 | H, S  | from HSL channels      |
 | a, b | from CIELab channels     |
@@ -38,7 +38,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 | M, YE  | from CMYK channels      |
 | Cb, Cr  | from YCbCr channels    |
 | I, Q  | from YIQ channels     |
-| Y  | Pixel labelled manually class   |
+| Y  | Pixel labelled manually class, **0 for Senescence Veg., 1 for Green Veg., 2 for Soil/Backg.**   |
 
 All colorspaces transformations are available in native script ```src/yellowgreenmulti/yellowgreenmultiutils.py``` or in the additionnal utils functions script ```src/yellowgreenmulti/util_fonctions.py```
 
