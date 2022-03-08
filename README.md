@@ -16,9 +16,9 @@ ABSTRACT
 The method proposed in [[paper](https://arxiv.org/abs/1505.04597)]  may be described in two stages. 
 
 In the first stage, the whole image is classified into Vegetation/Background mask using a U-net type Deep Learning network.
-Then, the vegetation pixels are classified into Green/Senescent vegetation using a SVM. 
+Then, the segmented vegetation pixels are classified into Green/Senescent vegetation using a binary SVM. 
 
-However, you will only find here the Second stage (yellow in Figure above).
+Here, you will only find the Second stage (yellow part in Figure above).
 To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
 
 ## 📦 DATA <a name="models"></a>
@@ -30,7 +30,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 | Features      | Description           | 
 | :------------- |:-------------|
-| xx and yy      | Pixels position according to PIL Images ⚠️ Not same in cv2 ⚠️ | 
+| xx, yy      | Pixels position according to PIL Images ⚠️ Reversed in cv2 ⚠️ | 
 | R, G, B      | from RGB channels      | 
 | H, S  | from HSL channels      |
 | a, b | from CIELab channels     |
@@ -40,23 +40,23 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 | I, Q  | from YIQ channels     |
 | Y  | Pixel labelled manually class   |
 
-All colorspaces transformations are available in native script ```src/yellowgreenmulti/yellowgreenmultiutils.py``` or additionnal utils functions ```src/yellowgreenmulti/util_fonctions.py```
+All colorspaces transformations are available in native script ```src/yellowgreenmulti/yellowgreenmultiutils.py``` or in the additionnal utils functions script ```src/yellowgreenmulti/util_fonctions.py```
 
 #### 2. DATA
 
 	__MODELS__
 
-[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML in [[paper](https://arxiv.org/abs/1505.04597)]
+[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML GPU in [[paper](https://arxiv.org/abs/1505.04597)]
 
-[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn in [[paper](https://arxiv.org/abs/1505.04597)]
+[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU in [[paper](https://arxiv.org/abs/1505.04597)]
 
 	__PIXELS CSV__ 
 
-[[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and trained/test repartition
+[[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and train/test repartition information
 
-[[CSV TEST](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
+[[CSV TEST](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
-[[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test + Soil/Background pixels + Soil used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
+[[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent/Soil) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
 	__RGB IMAGES AND MASKS__
 
@@ -134,12 +134,11 @@ EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-0
 
 | Item    | Description           | 
 | :------------- |:-------------|
-| rgb_images       | Path in input_folder where to find RGB images | 
-| vegetation_masks       | Path in input_folder where to find RGB images | 
-| rgb_images       | Path in input_folder where to find binary whole -Green and Senescent- vegetation masks (0 and 1, instead of 0 and 255) | 
-| visualisation       | Path in input_folder where to find overlay visualisation results | 
+| rgb_images       | Path in input_folder (l1) where to find RGB images | 
+| vegetation_masks       | Path in input_folder (l1) where to find binary whole -Green and Senescent- vegetation masks (0 and 1, instead of 0 and 255) | 
+| visualisation       | Path in output_folder (l2) where to find overlay visualisation results | 
 | log       | Folder to save log infos | 
-| output      | l2 folder to save raw segmentation | 
+| output      | Path in output_folder (l2) to save raw segmentation | 
 
 
 	__model_parameters__
@@ -147,11 +146,10 @@ EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-0
 | Item    | Description           | 
 | :------------- |:-------------|
 | path_tofind      | Path to find the trained - Green and Yellow vegetation - model | 
-| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelize but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
+| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelized but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
 | thresh       | Set the probability threshold of binary model to handle sensitivity | 
 | contrasted       | If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image | 
 
-Outputs files are located in l1/
 
 ## 🛠 Installation <a name="installation"></a>
 
