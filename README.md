@@ -87,7 +87,7 @@ If you find this work useful in your research, please cite either :
   Howpublished = {\url{https://github.com/mserouar/SegVeg}}
 }
 ```
-#### Images DATA <a name="Images"></a>
+#### Images Dataset <a name="Images"></a>
 
 ```
 @dataset{SegVeg,
@@ -113,19 +113,17 @@ If you find this work useful in your research, please cite either :
 % 	year = {2021}
 % }
 ```
-## 🚲 How to use
+## ☸️ How to use
 
 #### 1. Launch the module
 
 
-Positional arguments:
+| Positionnal arguments    | Description           | 
+| :------------- |:-------------|
+| input_folder      | Directory of the session you want to process : "PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/" | 
+| configuration_file       | Configuration file for hyperparameters tuning : "PATH/FROM/GITHUB/config/yellowConfiguration.json"      | 
 
-  input_folder          Directory of the session you want to process :
-                        "PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/"  
-                       
-  configuration_file    Configuration file for hyperparameters tuning : 
-			"PATH/FROM/GITHUB/config/yellowConfiguration.json"
-                        
+
 ```
 EXAMPLE :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
 
