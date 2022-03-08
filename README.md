@@ -52,11 +52,10 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 	__PIXELS CSV__ 
 
-[[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and train/test repartition information
+[[VERY_ALL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
-[[CSV TEST](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
+[[USED](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent Veg.) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and train/test repartition information
 
-[[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent/Soil) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
 	__RGB IMAGES AND MASKS__
 
