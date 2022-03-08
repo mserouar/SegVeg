@@ -46,24 +46,24 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 	__MODELS__
 
-[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML GPU in [[paper](https://arxiv.org/abs/1505.04597)]
+[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML GPU in paper
 
-[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU in [[paper](https://arxiv.org/abs/1505.04597)]
+[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU in paper
 
 	__PIXELS CSV__ 
 
-[[VERY_ALL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
+[[VERY_ALL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in paper
 
-[[USED](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent Veg.) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and train/test repartition information
+[[USED](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent Veg.) used to perform accuracy model in paper and train/test repartition information
 
 
 	__RGB IMAGES AND MASKS__
 
-[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
+[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in paper
 
-[[PHENOMOBILE](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from PHENOMOBILE domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
+[[PHENOMOBILE](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from PHENOMOBILE domain used to perform accuracy model in paper
 
-[[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
+[[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in paper
 
 
 	__Ready-to-use__
@@ -72,32 +72,7 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 ## 📝 Citing
 
-If you find this work useful in your research, please cite either :
-
-#### Python Module <a name="Module"></a>
-
-```
-@misc{SegVeg,
-  Author = {Serouart Mario, Madec Simon},
-  Title = {SegVeg},
-  Year = {2022},
-  Publisher = {GitHub},
-  Journal = {GitHub repository},
-  Howpublished = {\url{https://github.com/mserouar/SegVeg}}
-}
-```
-#### Images Dataset <a name="Images"></a>
-
-```
-@dataset{SegVeg,
-  author    = {Serouart Mario, Madec Simon},
-  title     = {Senescent Vegetation Dataset},
-  year      = {2022},
-  doi       = {XX.XXXX/XXX.XXXX.XXXXXXXX},
-  Howpublished = {\url{https://ZENODO}}
-  publisher = {Zenodo},
-}
-```
+If you find this work useful in your research, please cite :
 
 #### Paper <a name="Paper"></a>
 
@@ -112,6 +87,7 @@ If you find this work useful in your research, please cite either :
 % 	year = {2021}
 % }
 ```
+
 ## ☸️ How to use
 
 #### 1. Launch the module
