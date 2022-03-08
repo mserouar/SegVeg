@@ -34,7 +34,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 | R, G, B      | from RGB channels      | 
 | H, S  | from HSL channels      |
 | a, b | from CIELab channels     |
-| GE  | Greyscale     |
+| GE  | Grayscale     |
 | M, YE  | from CMYK channels      |
 | Cb, Cr  | from YCbCr channels    |
 | I, Q  | from YIQ channels     |
