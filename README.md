@@ -44,13 +44,13 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 #### 2. DATA
 
-	__MODELS__ 
+	**__MODELS__**
 
 [[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML in [[paper](https://arxiv.org/abs/1505.04597)]
 
 [[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn in [[paper](https://arxiv.org/abs/1505.04597)]
 
-	__PIXELS CSV__ 
+	**__PIXELS CSV__** 
 
 [[ALL_PIXELS](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and trained/test repartition
 
@@ -58,7 +58,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 [[CSV TEST SOL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test + Soil/Background pixels + Soil used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
-	__RGB IMAGES AND MASKS__ 
+	**__RGB IMAGES AND MASKS__** 
 
 [[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
 
@@ -67,7 +67,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 [[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
 
 
-	__Ready-to-use__ 
+	**__Ready-to-use__** 
 
 [[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test Session 
 
@@ -120,31 +120,37 @@ If you find this work useful in your research, please cite either :
 
 | Positionnal arguments    | Description           | 
 | :------------- |:-------------|
-| input_folder      | Directory of the session you want to process : "PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/" | 
-| configuration_file       | Configuration file for hyperparameters tuning : "PATH/FROM/GITHUB/config/yellowConfiguration.json"      | 
+| input_folder      | Directory of the session you want to process : **"PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/"** | 
+| configuration_file       | Configuration file for hyperparameters tuning : **"PATH/FROM/GITHUB/config/yellowConfiguration.json"** | 
 
 
 ```
 EXAMPLE :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
-
 ```
+
 #### 2. Understanding the config file
 
-relative_paths
+	**__relative_paths__**
 
- - metadata : ???
- - rgb_images : Path in input_folder where to find RGB images
- - vegetation_masks : Path in input_folder where to find binary whole -Green and Senescent- vegetation masks (0 and 1, instead of 0 and 255)
- - visualisation : Path in input_folder where to find overlay visualisation results
- - output : Output results folder
- - log : Folder to save log infos in l2 folder
+| Item    | Description           | 
+| :------------- |:-------------|
+| metadata      | | 
+| rgb_images       | Path in input_folder where to find RGB images | 
+| vegetation_masks       | Path in input_folder where to find RGB images | 
+| rgb_images       | Path in input_folder where to find binary whole -Green and Senescent- vegetation masks (0 and 1, instead of 0 and 255) | 
+| visualisation       | Path in input_folder where to find overlay visualisation results | 
+| output       | Output results folder | 
+| log       | Folder to save log infos in l2 folder | 
 
-model_parameters
 
- - path_tofind : Path to find the trained - Green and Yellow vegetation - model
- - n_cores : Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelize but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️
- - thresh : Set the probability threshold of binary model to handle sensitivity
- - contrasted : If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image
+	**__model_parameters__**
+
+| Item    | Description           | 
+| :------------- |:-------------|
+| path_tofind      | Path to find the trained - Green and Yellow vegetation - model | 
+| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelize but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
+| thresh       | Set the probability threshold of binary model to handle sensitivity | 
+| contrasted       | If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image | 
 
 
 CAMERA 45 REMOVED ? 
