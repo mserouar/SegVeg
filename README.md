@@ -28,15 +28,29 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 #### 1. Features
 
- - xx and yy : Pixels position according to PIL Images ⚠️ Not same in cv2 ⚠️
- - R, G, B : from RGB channels
- - H, S : from HSL channels
- - a, b : from CIELab channels
- - GE : Greyscale
- - M, YE : from CMYK channels
+ -  : 
+ - : 
+ - : from HSL channels
+ -  : 
+ -  : Greyscale
+ -  : from CMYK channels
  - Cb, Cr : from YCbCr channels
- - I, Q : from YIQ channels
- - Y : Pixel labelled manually class
+ -  : from YIQ channels
+ -  : Pixel labelled manually class
+
+| Features      | Are           | 
+| :------------- |:-------------:|
+| xx and yy      | Pixels position according to PIL Images ⚠️ Not same in cv2 ⚠️ | 
+| R, G, B      | from RGB channels      | 
+| H, S  | from HSL channels      |
+| a, b | from CIELab channels     |
+| GE  | Greyscale     |
+| M, YE  | from CMYK channels      |
+| Cb, Cr  | from YCbCr channels    |
+| I, Q  | from YIQ channels     |
+| Y  | Pixel labelled manually class   |
+
+
 
 #### 2. DATA
 
