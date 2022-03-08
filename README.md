@@ -16,7 +16,6 @@ ABSTRACT
 The method proposed in [[paper](https://arxiv.org/abs/1505.04597)]  may be described in two stages. 
 
 In the first stage, the whole image is classified into Vegetation/Background mask using a U-net type Deep Learning network.
- 
 Then, the vegetation pixels are classified into Green/Senescent vegetation using a SVM. 
 
 However, you will find here the only Second stage (yellow in Figure above).
@@ -28,20 +27,10 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 
 #### 1. Features
 
- -  : 
- - : 
- - : from HSL channels
- -  : 
- -  : Greyscale
- -  : from CMYK channels
- - Cb, Cr : from YCbCr channels
- -  : from YIQ channels
- -  : Pixel labelled manually class
 
 | Features      | Description           | 
 | :------------- |:-------------|
-| xx and yy      | Pixels position according to PIL Images 
-⚠️ Not same in cv2 ⚠️ | 
+| xx and yy      | Pixels position according to PIL Images ⚠️ Not same in cv2 ⚠️ | 
 | R, G, B      | from RGB channels      | 
 | H, S  | from HSL channels      |
 | a, b | from CIELab channels     |
