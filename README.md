@@ -38,8 +38,8 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
  -  : from YIQ channels
  -  : Pixel labelled manually class
 
-| Features      | Are           | 
-| :------------- |:-------------:|
+| Features      | Description           | 
+| :------------- |:-------------|
 | xx and yy      | Pixels position according to PIL Images ⚠️ Not same in cv2 ⚠️ | 
 | R, G, B      | from RGB channels      | 
 | H, S  | from HSL channels      |
