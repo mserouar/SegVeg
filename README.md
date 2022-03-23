@@ -46,10 +46,13 @@ To perform the first stage, please find more information on : ⌚ **WORK IN PROG
 
 ## 📦 DATA <a name="models"></a>
 
-#### 1. Features
+#### 1. Features (If you would like to train a new model, if not just use given model on images through launching command)
 
 | Features      | Description           | 
 | :------------- |:-------------|
+| Image_Name    | Name of corresponding images for each row pixel     | 
+| DOMAIN  | From which sub-dataset explained in paper  | 
+| REP | Repartition information for the trained given model  | 
 | xx, yy      | Pixels position according to PIL Images ⚠️ Reversed in cv2 ⚠️. More information on : https://pillow.readthedocs.io/en/stable/handbook/concepts.html#coordinate-system | 
 | R, G, B      | from RGB channels      | 
 | Y  | Pixel labelled manually class, **0 for Senescence Veg., 1 for Green Veg., 2 for Soil/Backg.**   |
@@ -71,7 +74,7 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 	__RGB IMAGES AND MASKS__
 
-[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL, PHENOMOBILE AND LITERAL domains used to perform accuracy model
+[[DATASET](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL, PHENOMOBILE AND LITERAL domains used to perform accuracy model
 
 (Available in Zenodo platform following link)
 
