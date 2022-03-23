@@ -9,7 +9,27 @@
 
 ## 📚 Abstract
 
-ABSTRACT
+The pixels segmentation of high resolution RGB images into background, green
+vegetation and senescent vegetation classes is a first step often required before
+estimating key traits of interest including the vegetation fraction, the green area index,
+or to characterize the sanitary state of the crop.  We developed the SegVeg model for
+semantic segmentation of RGB images into the three classes of interest. It is based on
+a U-net model that separates the vegetation from the background. It was trained over a
+very large and diverse dataset. The vegetation pixels are then classified using a SVM
+shallow machine learning technique trained over pixels extracted from grids applied to
+images.
+Results show that the SegVeg model allows to segment accurately the three classes,
+with however some confusion mainly between the background and the senescent
+vegetation, particularly over the dark and bright parts of the images. The use of the
+components of several color spaces allows to better classify the vegetation pixels into
+green and senescent ones. Finally, the model is used to predict the fraction of the three
+classes over the grids pixels or the whole images. Results show that the green fraction
+is very well estimated (R²=0.94), while the senescent and background fractions show
+slightly degraded performances (R²=0.70 and 0.73, respectively).
+We made SegVeg publicly available as a ready-to-use script, as well as the entire
+dataset, rendering segmentation accessible to a broad audience by requiring neither
+manual annotation nor knowledge, or at least, a pre-trained model to more specific
+use.
 
 ### ⏳ Useful information <a name="start"></a>
 
