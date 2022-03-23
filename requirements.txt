@@ -27,3 +27,4 @@ six==1.16.0
 threadpoolctl==3.0.0
 tifffile==2021.10.12
 tqdm==4.62.3
+xgboost==1.5.2
