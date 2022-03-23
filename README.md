@@ -8,7 +8,7 @@
 </div>
 
 
-## 📚 Abstract
+## 📚 ABSTRACT
 
 The pixels segmentation of high resolution RGB images into background, green
 vegetation and senescent vegetation classes is a first step often required before
@@ -48,77 +48,40 @@ To perform the first stage, please find more information on : ⌚ **WORK IN PROG
 
 #### 1. Features
 
-
 | Features      | Description           | 
 | :------------- |:-------------|
 | xx, yy      | Pixels position according to PIL Images ⚠️ Reversed in cv2 ⚠️. More information on : https://pillow.readthedocs.io/en/stable/handbook/concepts.html#coordinate-system | 
 | R, G, B      | from RGB channels      | 
-| H, S  | from HSL channels      |
-| a, b | from CIELab channels     |
-| GE  | Greyscale     |
-| M, YE  | from CMYK channels      |
-| Cb, Cr  | from YCbCr channels    |
-| I, Q  | from YIQ channels     |
 | Y  | Pixel labelled manually class, **0 for Senescence Veg., 1 for Green Veg., 2 for Soil/Backg.**   |
 
-All colorspaces transformations are available in native script ```src/yellowgreenmulti/yellowgreenmultiutils.py``` or in the additionnal utils functions script ```src/yellowgreenmulti/util_fonctions.py```
+All colorspaces transformations are available in native script ```src/yellowgreenmulti/yellowgreenmultiutils.py```
 
-#### 2. DATA
+#### 2. DATA (XGBoost used by default in config file)
 
 	__MODELS__
 
-[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML GPU in [[paper](https://arxiv.org/abs/1505.04597)]
+[[model_scikit](https://github.com/mserouar/SegVeg/blob/main/docs/DATA/model_scikit)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU
 
-[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU in [[paper](https://arxiv.org/abs/1505.04597)]
+[[XGBoost](https://github.com/mserouar/SegVeg/blob/main/docs/DATA/XGBoost)] : Green/Senescent vegetation XGBoost alternative model (for computational performances purposes)
 
-	__PIXELS CSV__ 
+	__LABELLED_PIXELS CSV__ 
 
-[[VERY_ALL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
-
-[[USED](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent Veg.) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and train/test repartition information
+[[LABELLED_PIXELS](https://github.com/mserouar/SegVeg/blob/main/docs/DATA/LABELLED_PIXELS.csv)] : Labelled pixels (Green Veg./Senescent Veg./Background) used to perform accuracy model and its train/test repartition information
 
 
 	__RGB IMAGES AND MASKS__
 
-[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
+[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL, PHENOMOBILE AND LITERAL domains used to perform accuracy model
 
-[[PHENOMOBILE](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from PHENOMOBILE domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
-
-[[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
-
+(Available in Zenodo platform following link)
 
 	__Ready-to-use__
 
-[[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test Session 
+[[Session 2021-03-17 14-19-59](https://github.com/mserouar/SegVeg/tree/main/docs/DATA/Session%202021-03-17%2014-19-59)] : Test Session 
 
 ## 📝 Citing
 
-If you find this work useful in your research, please cite either :
-
-#### Python Module <a name="Module"></a>
-
-```
-@misc{SegVeg,
-  Author = {Serouart Mario, Madec Simon},
-  Title = {SegVeg},
-  Year = {2022},
-  Publisher = {GitHub},
-  Journal = {GitHub repository},
-  Howpublished = {\url{https://github.com/mserouar/SegVeg}}
-}
-```
-#### Images Dataset <a name="Images"></a>
-
-```
-@dataset{SegVeg,
-  author    = {Serouart Mario, Madec Simon},
-  title     = {Senescent Vegetation Dataset},
-  year      = {2022},
-  doi       = {XX.XXXX/XXX.XXXX.XXXXXXXX},
-  Howpublished = {\url{https://ZENODO}}
-  publisher = {Zenodo},
-}
-```
+If you find this work useful in your research (Python module or Dataset), please cite:
 
 #### Paper <a name="Paper"></a>
 
@@ -133,16 +96,16 @@ If you find this work useful in your research, please cite either :
 % 	year = {2021}
 % }
 ```
+
 ## ☸️ How to use
 
-#### 1. Launch the module
+#### 1. Launch the module (Once you launched the Standard installation section)
 
 
 | Positionnal arguments    | Description           | 
 | :------------- |:-------------|
 | input_folder      | Directory of the session you want to process : **"PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/"** | 
 | configuration_file       | Configuration file for hyperparameters tuning : **"PATH/FROM/GITHUB/config/yellowConfiguration.json"** | 
-
 
 ```
 EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
@@ -158,15 +121,13 @@ EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-0
 | vegetation_masks       | Path in input_folder (l1) where to find binary whole -Green and Senescent- vegetation masks (0 and 1, instead of 0 and 255) | 
 | visualisation       | Path in output_folder (l2) where to find overlay visualisation results | 
 | log       | Folder to save log infos | 
-| output      | Path in output_folder (l2) to save raw segmentation | 
-
 
 	__model_parameters__
 
 | Item    | Description           | 
 | :------------- |:-------------|
-| path_tofind      | Path to find the trained - Green and Yellow vegetation - model | 
-| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelized but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
+| model     | Path to find the trained - Green and Yellow vegetation - model | 
+| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you do not use Parallel Processing ⚠️ | 
 | thresh       | Set the probability threshold of binary model to handle sensitivity | 
 | contrasted       | If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image | 
 
