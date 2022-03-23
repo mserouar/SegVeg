@@ -44,7 +44,7 @@ Then, the segmented vegetation pixels are classified into Green/Senescent vegeta
 Here, you will only find the Second stage (yellow part in Figure above).
 To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
 
-RED APPLE (&#x1F34E;): 🍎
+ 🍎 If you have any question, please open an issue
 
 ## 📦 DATA <a name="models"></a>
 
