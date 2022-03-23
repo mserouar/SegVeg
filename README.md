@@ -88,7 +88,7 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 ## 📝 Citing
 
-If you find this work useful in your research (Python module or Dataset), please cite:
+If you find this work useful in your research (Python module, model or Dataset), please cite:
 
 #### Paper <a name="Paper"></a>
 
