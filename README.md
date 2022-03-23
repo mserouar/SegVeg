@@ -18,6 +18,7 @@ a U-net model that separates the vegetation from the background. It was trained 
 very large and diverse dataset. The vegetation pixels are then classified using a SVM
 shallow machine learning technique trained over pixels extracted from grids applied to
 images.
+
 Results show that the SegVeg model allows to segment accurately the three classes,
 with however some confusion mainly between the background and the senescent
 vegetation, particularly over the dark and bright parts of the images. The use of the
@@ -26,6 +27,7 @@ green and senescent ones. Finally, the model is used to predict the fraction of 
 classes over the grids pixels or the whole images. Results show that the green fraction
 is very well estimated (R²=0.94), while the senescent and background fractions show
 slightly degraded performances (R²=0.70 and 0.73, respectively).
+
 We made SegVeg publicly available as a ready-to-use script, as well as the entire
 dataset, rendering segmentation accessible to a broad audience by requiring neither
 manual annotation nor knowledge, or at least, a pre-trained model to more specific
