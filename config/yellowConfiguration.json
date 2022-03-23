@@ -7,7 +7,7 @@
     "log":"log"
 },
 "model_parameters":{
-    "model":"/home/capte-gpu-2/Downloads/yellowgreen-multi-main (2)/docs/XGBoost",
+    "model":"PATH_GITHUB/docs/XGBoost",
     "n_cores":16,
     "thresh":0.5,
     "contrasted":1
