@@ -1,0 +1,2 @@
+[console_scripts]
+yellowgreen-multi = yellowgreenmulti.cli:main

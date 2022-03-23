@@ -1,0 +1,18 @@
+graft docs
+graft src
+graft tests
+
+prune docs/build
+prune docs/source/api
+
+include .coveragerc
+include pylintrc
+include pyproject.toml
+
+include CHANGELOG.md
+include LICENSE
+include README.md
+
+include tox.ini pytest.ini
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib *.dll

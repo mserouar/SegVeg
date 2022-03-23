@@ -1,0 +1,16 @@
+
+   {
+   "relative_paths":{
+    "rgb_images":"l1/rgb_images",
+    "vegetation_masks":"l1/segmentation",
+    "visualisation":"l2/visualisation_segmentation_yellow_green",
+    "log":"log"
+},
+"model_parameters":{
+    "model":"/home/capte-gpu-2/Downloads/yellowgreen-multi-main (2)/docs/XGBoost",
+    "n_cores":16,
+    "thresh":0.5,
+    "contrasted":1
+}
+
+}

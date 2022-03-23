@@ -2,40 +2,17 @@
 
 <div align="center">
 
-![logo](https://i.ibb.co/dc1XdhT/Segmentation-Models-V2-Side-1-1.png)
 **Python module for Senescent Vegetation Image Segmentation based on SVM.**
 
 </div>
 
 ## 📚 Abstract
 
-The pixels segmentation of high resolution RGB images into background, green
-vegetation and senescent vegetation classes is a first step often required before
-estimating key traits of interest including the vegetation fraction, the green area index,
-or to characterize the sanitary state of the crop.  We developed the SegVeg model for
-semantic segmentation of RGB images into the three classes of interest. It is based on
-a U-net model that separates the vegetation from the background. It was trained over a
-very large and diverse dataset. The vegetation pixels are then classified using a SVM
-shallow machine learning technique trained over pixels extracted from grids applied to
-images.
-
-Results show that the SegVeg model allows to segment accurately the three classes,
-with however some confusion mainly between the background and the senescent
-vegetation, particularly over the dark and bright parts of the images. The use of the
-components of several color spaces allows to better classify the vegetation pixels into
-green and senescent ones. Finally, the model is used to predict the fraction of the three
-classes over the grids pixels or the whole images. Results show that the green fraction
-is very well estimated (R²=0.94), while the senescent and background fractions show
-slightly degraded performances (R²=0.70 and 0.73, respectively).
-
-We made SegVeg publicly available as a ready-to-use script, as well as the entire
-dataset, rendering segmentation accessible to a broad audience by requiring neither
-manual annotation nor knowledge, or at least, a pre-trained model to more specific
-use.
+ABSTRACT IN COMING
 
 ### ⏳ Useful information <a name="start"></a>
 
-The method proposed in [[paper](https://arxiv.org/abs/1505.04597)]  may be described in two stages. 
+The method proposed in [[paper](XXX)]  may be described in two stages. 
 
 In the first stage, the whole image is classified into Vegetation/Background mask using a U-net type Deep Learning network.
 Then, the segmented vegetation pixels are classified into Green/Senescent vegetation using a binary SVM. 
@@ -44,8 +21,6 @@ Here, you will only find the Second stage (yellow part in Figure above).
 To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
 
 ## 📦 DATA <a name="models"></a>
-
-All freely available DATA could be found in the [[docs](https://smp.readthedocs.io/en/latest/models.html#unet)] folder.
 
 #### 1. Features
 
@@ -56,7 +31,7 @@ All freely available DATA could be found in the [[docs](https://smp.readthedocs.
 | R, G, B      | from RGB channels      | 
 | H, S  | from HSL channels      |
 | a, b | from CIELab channels     |
-| GE  | Grayscale     |
+| GE  | Greyscale     |
 | M, YE  | from CMYK channels      |
 | Cb, Cr  | from YCbCr channels    |
 | I, Q  | from YIQ channels     |
@@ -66,35 +41,60 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 #### 2. DATA
 
-	MODELS
+	__MODELS__
 
-[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML GPU in paper
+[[model_cuML](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with RAPIDs | cuML GPU in [[paper](https://arxiv.org/abs/1505.04597)]
 
-[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU in paper
+[[model_scikit](https://smp.readthedocs.io/en/latest/models.html#unet)] : Green/Senescent vegetation SVM model built with Scikit-learn CPU in [[paper](https://arxiv.org/abs/1505.04597)]
 
-	PIXELS CSV 
+	__PIXELS CSV__ 
 
-[[VERY_ALL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in paper
+[[VERY_ALL](https://smp.readthedocs.io/en/latest/models.html#unet)] : Whole annotated pixels used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] 
 
-[[USED](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent Veg.) used to perform accuracy model in paper and train/test repartition information
-
-
-	RGB IMAGES AND MASKS
-
-[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in paper
-
-[[PHENOMOBILE](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from PHENOMOBILE domain used to perform accuracy model in paper
-
-[[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in paper
+[[USED](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test pixels (Green/Senescent Veg.) used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)] and train/test repartition information
 
 
-	Ready-to-use
+	__RGB IMAGES AND MASKS__
+
+[[Literal](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from LITERAL domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
+
+[[PHENOMOBILE](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from PHENOMOBILE domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
+
+[[P2S2](https://smp.readthedocs.io/en/latest/models.html#unet)] : RGB images and Vegetation/Background masks from P2S2 domain used to perform accuracy model in [[paper](https://arxiv.org/abs/1505.04597)]
+
+
+	__Ready-to-use__
 
 [[Session 2021-03-17 14-19-59](https://smp.readthedocs.io/en/latest/models.html#unet)] : Test Session 
 
 ## 📝 Citing
 
-If you find this work useful in your research, please cite :
+If you find this work useful in your research, please cite either :
+
+#### Python Module <a name="Module"></a>
+
+```
+@misc{SegVeg,
+  Author = {Serouart Mario, Madec Simon},
+  Title = {SegVeg},
+  Year = {2022},
+  Publisher = {GitHub},
+  Journal = {GitHub repository},
+  Howpublished = {\url{https://github.com/mserouar/SegVeg}}
+}
+```
+#### Images Dataset <a name="Images"></a>
+
+```
+@dataset{SegVeg,
+  author    = {Serouart Mario, Madec Simon},
+  title     = {Senescent Vegetation Dataset},
+  year      = {2022},
+  doi       = {XX.XXXX/XXX.XXXX.XXXXXXXX},
+  Howpublished = {\url{https://ZENODO}}
+  publisher = {Zenodo},
+}
+```
 
 #### Paper <a name="Paper"></a>
 
@@ -109,7 +109,6 @@ If you find this work useful in your research, please cite :
 % 	year = {2021}
 % }
 ```
-
 ## ☸️ How to use
 
 #### 1. Launch the module
@@ -127,7 +126,7 @@ EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-0
 
 #### 2. Understanding the config file
 
-	relative_paths
+	__relative_paths__
 
 | Item    | Description           | 
 | :------------- |:-------------|
@@ -138,12 +137,12 @@ EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-0
 | output      | Path in output_folder (l2) to save raw segmentation | 
 
 
-	model_parameters
+	__model_parameters__
 
 | Item    | Description           | 
 | :------------- |:-------------|
 | path_tofind      | Path to find the trained - Green and Yellow vegetation - model | 
-| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelized but GPU based model_cuML (need to be installed according to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
+| n_cores       | Number of cpu core used to predict pixels class ⚠️ Deprecated if you use the non parallelized but GPU based model_cuML (need to be installed accrding to : https://rapids.ai/start.html#rapids-release-selector) ⚠️ | 
 | thresh       | Set the probability threshold of binary model to handle sensitivity | 
 | contrasted       | If 1/True, automatic color enhancement is performed, in order to use whole color distribution of each image | 
 

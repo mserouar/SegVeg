@@ -1,0 +1,1375 @@
+MANIFEST.in
+README.md
+pylintrc
+pyproject.toml
+setup.cfg
+setup.py
+docs/Makefile
+docs/README.md
+docs/XGBoost
+docs/make.bat
+docs/DATA/ALL_PIXELS.csv
+docs/DATA/ALL_PIXELS_cleaned.csv
+docs/DATA/ALL_PIXELS_cleaned_both.csv
+docs/DATA/Launch
+docs/DATA/VERY_ALL.csv
+docs/DATA/VERY_ALL_classified (copy 1).csv
+docs/DATA/VERY_ALL_classified (copy 2).csv
+docs/DATA/VERY_ALL_classified.csv
+docs/DATA/VERY_ALL_classified_HSL.csv
+docs/DATA/VERY_ALL_classified_HSL_tr (copy 1).csv
+docs/DATA/VERY_ALL_classified_HSL_tr.csv
+docs/DATA/VERY_ALL_classified_HSL_tr_sortedd.csv
+docs/DATA/model_cuML
+docs/DATA/model_scikit
+docs/DATA/CSV TEST/LITERAL.csv
+docs/DATA/CSV TEST/P2S2.csv
+docs/DATA/CSV TEST/PHENOMOBILE.csv
+docs/DATA/CSV TEST SOL/.png
+docs/DATA/CSV TEST SOL/ALL_test.csv
+docs/DATA/CSV TEST SOL/ALL_test_HSL.csv
+docs/DATA/CSV TEST SOL/LITERAL.csv
+docs/DATA/CSV TEST SOL/P2S2.csv
+docs/DATA/CSV TEST SOL/PHENOMOBILE.csv
+docs/DATA/Literal/images/LiteralDataset_1.png
+docs/DATA/Literal/images/LiteralDataset_10.png
+docs/DATA/Literal/images/LiteralDataset_11.png
+docs/DATA/Literal/images/LiteralDataset_12.png
+docs/DATA/Literal/images/LiteralDataset_13.png
+docs/DATA/Literal/images/LiteralDataset_14.png
+docs/DATA/Literal/images/LiteralDataset_15.png
+docs/DATA/Literal/images/LiteralDataset_16.png
+docs/DATA/Literal/images/LiteralDataset_17.png
+docs/DATA/Literal/images/LiteralDataset_18.png
+docs/DATA/Literal/images/LiteralDataset_19.png
+docs/DATA/Literal/images/LiteralDataset_2.png
+docs/DATA/Literal/images/LiteralDataset_20.png
+docs/DATA/Literal/images/LiteralDataset_21.png
+docs/DATA/Literal/images/LiteralDataset_22.png
+docs/DATA/Literal/images/LiteralDataset_23.png
+docs/DATA/Literal/images/LiteralDataset_24.png
+docs/DATA/Literal/images/LiteralDataset_25.png
+docs/DATA/Literal/images/LiteralDataset_26.png
+docs/DATA/Literal/images/LiteralDataset_27.png
+docs/DATA/Literal/images/LiteralDataset_28.png
+docs/DATA/Literal/images/LiteralDataset_29.png
+docs/DATA/Literal/images/LiteralDataset_3.png
+docs/DATA/Literal/images/LiteralDataset_30.png
+docs/DATA/Literal/images/LiteralDataset_31.png
+docs/DATA/Literal/images/LiteralDataset_32.png
+docs/DATA/Literal/images/LiteralDataset_33.png
+docs/DATA/Literal/images/LiteralDataset_34.png
+docs/DATA/Literal/images/LiteralDataset_35.png
+docs/DATA/Literal/images/LiteralDataset_36.png
+docs/DATA/Literal/images/LiteralDataset_37.png
+docs/DATA/Literal/images/LiteralDataset_38.png
+docs/DATA/Literal/images/LiteralDataset_39.png
+docs/DATA/Literal/images/LiteralDataset_4.png
+docs/DATA/Literal/images/LiteralDataset_5.png
+docs/DATA/Literal/images/LiteralDataset_50.png
+docs/DATA/Literal/images/LiteralDataset_51.png
+docs/DATA/Literal/images/LiteralDataset_52.png
+docs/DATA/Literal/images/LiteralDataset_53.png
+docs/DATA/Literal/images/LiteralDataset_54.png
+docs/DATA/Literal/images/LiteralDataset_55.png
+docs/DATA/Literal/images/LiteralDataset_56.png
+docs/DATA/Literal/images/LiteralDataset_57.png
+docs/DATA/Literal/images/LiteralDataset_58.png
+docs/DATA/Literal/images/LiteralDataset_59.png
+docs/DATA/Literal/images/LiteralDataset_6.png
+docs/DATA/Literal/images/LiteralDataset_60.png
+docs/DATA/Literal/images/LiteralDataset_61.png
+docs/DATA/Literal/images/LiteralDataset_62.png
+docs/DATA/Literal/images/LiteralDataset_63.png
+docs/DATA/Literal/images/LiteralDataset_64.png
+docs/DATA/Literal/images/LiteralDataset_65.png
+docs/DATA/Literal/images/LiteralDataset_66.png
+docs/DATA/Literal/images/LiteralDataset_67.png
+docs/DATA/Literal/images/LiteralDataset_68.png
+docs/DATA/Literal/images/LiteralDataset_69.png
+docs/DATA/Literal/images/LiteralDataset_7.png
+docs/DATA/Literal/images/LiteralDataset_70.png
+docs/DATA/Literal/images/LiteralDataset_71.png
+docs/DATA/Literal/images/LiteralDataset_72.png
+docs/DATA/Literal/images/LiteralDataset_73.png
+docs/DATA/Literal/images/LiteralDataset_74.png
+docs/DATA/Literal/images/LiteralDataset_75.png
+docs/DATA/Literal/images/LiteralDataset_76.png
+docs/DATA/Literal/images/LiteralDataset_77.png
+docs/DATA/Literal/images/LiteralDataset_8.png
+docs/DATA/Literal/images/LiteralDataset_9.png
+docs/DATA/Literal/masks/LiteralDataset_1.png
+docs/DATA/Literal/masks/LiteralDataset_10.png
+docs/DATA/Literal/masks/LiteralDataset_11.png
+docs/DATA/Literal/masks/LiteralDataset_12.png
+docs/DATA/Literal/masks/LiteralDataset_13.png
+docs/DATA/Literal/masks/LiteralDataset_14.png
+docs/DATA/Literal/masks/LiteralDataset_15.png
+docs/DATA/Literal/masks/LiteralDataset_16.png
+docs/DATA/Literal/masks/LiteralDataset_17.png
+docs/DATA/Literal/masks/LiteralDataset_18.png
+docs/DATA/Literal/masks/LiteralDataset_19.png
+docs/DATA/Literal/masks/LiteralDataset_2.png
+docs/DATA/Literal/masks/LiteralDataset_20.png
+docs/DATA/Literal/masks/LiteralDataset_21.png
+docs/DATA/Literal/masks/LiteralDataset_22.png
+docs/DATA/Literal/masks/LiteralDataset_23.png
+docs/DATA/Literal/masks/LiteralDataset_24.png
+docs/DATA/Literal/masks/LiteralDataset_25.png
+docs/DATA/Literal/masks/LiteralDataset_26.png
+docs/DATA/Literal/masks/LiteralDataset_27.png
+docs/DATA/Literal/masks/LiteralDataset_28.png
+docs/DATA/Literal/masks/LiteralDataset_29.png
+docs/DATA/Literal/masks/LiteralDataset_3.png
+docs/DATA/Literal/masks/LiteralDataset_30.png
+docs/DATA/Literal/masks/LiteralDataset_31.png
+docs/DATA/Literal/masks/LiteralDataset_32.png
+docs/DATA/Literal/masks/LiteralDataset_33.png
+docs/DATA/Literal/masks/LiteralDataset_34.png
+docs/DATA/Literal/masks/LiteralDataset_35.png
+docs/DATA/Literal/masks/LiteralDataset_36.png
+docs/DATA/Literal/masks/LiteralDataset_37.png
+docs/DATA/Literal/masks/LiteralDataset_38.png
+docs/DATA/Literal/masks/LiteralDataset_39.png
+docs/DATA/Literal/masks/LiteralDataset_4.png
+docs/DATA/Literal/masks/LiteralDataset_5.png
+docs/DATA/Literal/masks/LiteralDataset_50.png
+docs/DATA/Literal/masks/LiteralDataset_51.png
+docs/DATA/Literal/masks/LiteralDataset_52.png
+docs/DATA/Literal/masks/LiteralDataset_53.png
+docs/DATA/Literal/masks/LiteralDataset_54.png
+docs/DATA/Literal/masks/LiteralDataset_55.png
+docs/DATA/Literal/masks/LiteralDataset_56.png
+docs/DATA/Literal/masks/LiteralDataset_57.png
+docs/DATA/Literal/masks/LiteralDataset_58.png
+docs/DATA/Literal/masks/LiteralDataset_59.png
+docs/DATA/Literal/masks/LiteralDataset_6.png
+docs/DATA/Literal/masks/LiteralDataset_60.png
+docs/DATA/Literal/masks/LiteralDataset_61.png
+docs/DATA/Literal/masks/LiteralDataset_62.png
+docs/DATA/Literal/masks/LiteralDataset_63.png
+docs/DATA/Literal/masks/LiteralDataset_64.png
+docs/DATA/Literal/masks/LiteralDataset_65.png
+docs/DATA/Literal/masks/LiteralDataset_66.png
+docs/DATA/Literal/masks/LiteralDataset_67.png
+docs/DATA/Literal/masks/LiteralDataset_68.png
+docs/DATA/Literal/masks/LiteralDataset_69.png
+docs/DATA/Literal/masks/LiteralDataset_7.png
+docs/DATA/Literal/masks/LiteralDataset_70.png
+docs/DATA/Literal/masks/LiteralDataset_71.png
+docs/DATA/Literal/masks/LiteralDataset_72.png
+docs/DATA/Literal/masks/LiteralDataset_73.png
+docs/DATA/Literal/masks/LiteralDataset_74.png
+docs/DATA/Literal/masks/LiteralDataset_75.png
+docs/DATA/Literal/masks/LiteralDataset_76.png
+docs/DATA/Literal/masks/LiteralDataset_77.png
+docs/DATA/Literal/masks/LiteralDataset_8.png
+docs/DATA/Literal/masks/LiteralDataset_9.png
+docs/DATA/P2S2/images/0_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/10_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/11_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/12_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/13_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/14_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/15_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/16_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/17_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/18_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/19_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/1_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/20_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/21_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/22_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/23_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/24_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/25_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/26_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/27_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/28_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/29_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/2_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/30_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/31_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/32_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/33_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/34_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/35_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/36_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/37_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/38_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/39_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/3_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/40_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/41_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/42_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/43_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/44_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/45_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/46_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/47_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/48_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/49_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/4_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/50_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/51_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/52_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/53_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/54_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/55_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/56_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/57_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/58_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/59_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/5_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/60_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/61_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/62_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/63_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/64_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/65_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/66_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/67_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/68_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/69_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/6_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/70_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/71_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/72_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/73_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/74_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/75_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/76_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/77_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/78_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/79_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/7_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/80_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/81_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/82_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/83_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/84_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/85_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/86_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/87_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/88_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/89_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/8_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/90_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/91_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/92_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/93_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/94_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/95_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/96_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/97_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/98_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/99_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/9_Selec-100-dhp-round2.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Merle_Bellevue_crop892-892_DSC09149.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Suffren_8008_crop190-892_DSC09236.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Suffren_8022_crop50-892_DSC09216.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180221_ble_Vigne_9748_crop892-892_DSC09326.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180327_Prairie_Merle_2C_crop190-892_DSC00357.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180327_ble_Furanne_6305_crop892-190_DSC00462.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180327_ble_Furanne_6323_crop892-424_DSC00488.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180327_ble_Gouine_8478_crop190-892_DSC00616.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180327_ble_Gouines_8703_crop51-894_DSC00629.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180327_ble_Mejanes_37-38_crop424-892_DSC00587.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180509_Prairie_Merle_1M_crop892-892_DSC02233.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180524_ble_Furanne_6305_crop892-50_DSC02763.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180524_ble_Mejanes_36_crop892-190_DSC02914.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180613_ble_Mejanes_36_crop50-892_DSC03887.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180613_tournesol_Mas Blanc plot 1 Sud_crop892-190_DSC03972.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180613_tournesol_Mejanes_crop424-892_DSC03903.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180703_mais_Mas blanc plot 2 Nord_crop191-894_DSC05269.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180703_rice_41-B-Mejanes_crop424-424_DSC05547.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180703_tournesol_3274_Fauranne_crop892-190_DSC05133.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180703_tournesol_Mas Blanc plot 5 Nord_crop424-892_DSC05239.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180803_mais_Mas d'Adrien plot 5_crop892-50_DSC06619.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180803_tournesol_Mas Blanc plot 5 Sud_crop892-424_DSC06542.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180822_mais_Mas d'Adrien plot 5_crop190-892_DSC07607.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180822_rice_Goult-1_crop892-50_DSC07183.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180822_tournesol_Mas Blanc plot 1 Sud_crop892-190_DSC07388.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180822_tournesol_Mas Blanc plot 5 Sud_crop424-424_DSC07549.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180920_rice_3299_3287_Fauranne_crop424-424_DSC08448.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180924_mais_Mas Blanc plot 1 Nord_crop892-424_DSC08666.png
+docs/DATA/P2S2/images/P2S2_Site_1_2017-2018_DHP_20180924_mais_Mas d'Adrien plot 7_crop424-892_DSC08676.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20171128_ble_ANJ-28-1_crop424-892_DSC08127.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20171128_colza_BOP-9-211_crop892-190_DSC01595.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20171128_colza_BRA-59-12_crop74-74_SDIM3582.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180227_ble_BRA-11-19_crop892-424_DSC09720.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180227_colza_BLA-1-6-B-Sud_crop892-892_DSC09677.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180227_colza_MER-37-35_crop892-892_DSC09566.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180403_colza_BOX-4-37_crop892-50_DSC00711.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180502_ble_AUZ-10-1-PP_crop892-892_DSC02179.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180502_colza_BRA-59-12_crop190-892_DSC02136.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180528_ble_LAM-3-2_crop190-892_DSC02952.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180528_colza_BOX-3-66_crop424-892_DSC03120.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180528_mais_BOL1_crop424-424_DSC03289.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180620_ble_BLA-1-4_crop608-608_IMG_6676.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180620_ble_PAV-10-1_crop235-235_IMG_6612.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180620_mais_PER13_crop424-424_DSC04253.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180628_mais_PER12B_crop608-608_IMG_6060.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180712_tournesol_ANj25A_crop608-235_IMG_6987.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180727_mais_LAM4_crop48-608_IMG_7386.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180727_tournesol_ANj25B_crop608-608_IMG_7287.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180817_mais_LAM4_crop608-235_IMG_7549.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180824_mais_BOL6_crop608-235_IMG_7673.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20180925_mais_PER13_crop608-48_IMG_8089.png
+docs/DATA/P2S2/images/P2S2_Site_2_2017-2018_DHP_20181011_mais_BOL27_crop608-48_IMG_8138.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180126_ble_33_1_DS_1_crop940-456_DSC_6647.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180126_colza_32 SS_1_crop456-940_DSC_6686.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180126_colza_Richard_2_crop456-214_DSC_6976.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180412_ble_61_SS_crop940-456_DSC_7236.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180412_colza_Boigneville Hangar 1_crop940-69_DSC_7261.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180502_ble_33_1_SS_1_crop940-69_DSC_7346.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180502_ble_61_DS_crop456-456_DSC_7375.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180502_colza_32 SS_1_crop456-940_DSC_7429.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180502_colza_73_MS_1_crop456-456_DSC_7592.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180502_colza_Boigneville Hangar 1_crop940-214_DSC_7615.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180502_colza_Boigneville Hangar 2_crop940-214_DSC_7634.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180522_mais_Fresnay_2_crop940-214_DSC_8149.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180627_betterave_ESU_3_crop456-940_DSC_8536.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180627_betterave_Hangar Ruines_crop456-456_DSC_8326.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180627_ble_61_DS_crop456-214_DSC_8283.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180730_PDT_Champmot ESU 5_crop50-892_DSC06332.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180730_mais_Tousson parcelle 2 (2)_crop892-424_DSC06247.png
+docs/DATA/P2S2/images/P2S2_Site_3_2017-2018_DHP_20180913_mais_Parcelle 34_crop892-190_DSC08141.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180314_ble_Diquet apres chicoree_crop894-426_DSC09989.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180314_colza_VRG 02_crop190-892_DSC00112.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180411_colza_Hontoir_crop892-892_DSC01423.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180411_colza_Spontin_crop424-892_DSC01188.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180411_colza_VRG 02_crop892-424_DSC01225.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180516_colza_Dessus Verger_crop892-424_DSC02743.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180516_colza_No 31_crop190-892_DSC02726.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180606_betterave_Campagne de l'ANG_crop892-424_DSC03732.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180606_betterave_Derriere Brichart_crop50-892_DSC03641.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180606_ble_Deriere maison_crop892-892_DSC03581.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180606_colza_Grande terre miniere_crop892-424_DSC03463.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180627_PDT_Terre malet_crop424-892_DSC04816.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180627_ble_Deriere maison_crop892-50_DSC05021.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-4_crop191-894_DSC04662.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-7_crop894-51_DSC04649.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-8_crop894-191_DSC04707.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180718_PDT_Cimetiere de Brye_crop892-424_DSC05935.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180718_PDT_Picaute masset_crop892-892_DSC05693.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180718_mais_Belsar-7_crop50-892_DSC05721.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180808_PDT_Cimetiere de Brye_crop424-892_DSC06823.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180808_PDT_Terre malet_crop892-892_DSC06846.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180808_betterave_Campagne de l'ANG_crop424-424_DSC06940.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180808_betterave_Derriere la station AGIP_crop892-424_DSC06649.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180808_mais_Belsar-5_crop50-892_DSC07075.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Cimetiere de Brye_crop190-892_DSC07801.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Hannon_crop424-892_DSC07702.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Monty_crop424-424_DSC07969.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Saint pierre_crop190-892_DSC07893.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Sonne ville_crop424-424_DSC07865.png
+docs/DATA/P2S2/images/P2S2_Site_4_2017-2018_DHP_20180905_mais_Belsar-1_crop892-50_DSC08048.png
+docs/DATA/P2S2/masks/0_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/10_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/11_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/12_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/13_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/14_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/15_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/16_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/17_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/18_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/19_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/1_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/20_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/21_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/22_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/23_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/24_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/25_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/26_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/27_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/28_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/29_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/2_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/30_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/31_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/32_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/33_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/34_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/35_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/36_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/37_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/38_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/39_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/3_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/40_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/41_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/42_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/43_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/44_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/45_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/46_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/47_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/48_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/49_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/4_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/50_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/51_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/52_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/53_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/54_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/55_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/56_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/57_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/58_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/59_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/5_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/60_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/61_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/62_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/63_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/64_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/65_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/66_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/67_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/68_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/69_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/6_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/70_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/71_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/72_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/73_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/74_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/75_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/76_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/77_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/78_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/79_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/7_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/80_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/81_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/82_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/83_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/84_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/85_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/86_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/87_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/88_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/89_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/8_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/90_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/91_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/92_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/93_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/94_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/95_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/96_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/97_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/98_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/99_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/9_Selec-100-dhp-round2.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Merle_Bellevue_crop892-892_DSC09149.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Suffren_8008_crop190-892_DSC09236.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Suffren_8022_crop50-892_DSC09216.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180221_ble_Vigne_9748_crop892-892_DSC09326.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180327_Prairie_Merle_2C_crop190-892_DSC00357.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180327_ble_Furanne_6305_crop892-190_DSC00462.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180327_ble_Furanne_6323_crop892-424_DSC00488.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180327_ble_Gouine_8478_crop190-892_DSC00616.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180327_ble_Gouines_8703_crop51-894_DSC00629.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180327_ble_Mejanes_37-38_crop424-892_DSC00587.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180509_Prairie_Merle_1M_crop892-892_DSC02233.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180524_ble_Furanne_6305_crop892-50_DSC02763.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180524_ble_Mejanes_36_crop892-190_DSC02914.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180613_ble_Mejanes_36_crop50-892_DSC03887.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180613_tournesol_Mas Blanc plot 1 Sud_crop892-190_DSC03972.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180613_tournesol_Mejanes_crop424-892_DSC03903.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180703_mais_Mas blanc plot 2 Nord_crop191-894_DSC05269.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180703_rice_41-B-Mejanes_crop424-424_DSC05547.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180703_tournesol_3274_Fauranne_crop892-190_DSC05133.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180703_tournesol_Mas Blanc plot 5 Nord_crop424-892_DSC05239.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180803_mais_Mas d'Adrien plot 5_crop892-50_DSC06619.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180803_tournesol_Mas Blanc plot 5 Sud_crop892-424_DSC06542.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180822_mais_Mas d'Adrien plot 5_crop190-892_DSC07607.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180822_rice_Goult-1_crop892-50_DSC07183.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180822_tournesol_Mas Blanc plot 1 Sud_crop892-190_DSC07388.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180822_tournesol_Mas Blanc plot 5 Sud_crop424-424_DSC07549.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180920_rice_3299_3287_Fauranne_crop424-424_DSC08448.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180924_mais_Mas Blanc plot 1 Nord_crop892-424_DSC08666.png
+docs/DATA/P2S2/masks/P2S2_Site_1_2017-2018_DHP_20180924_mais_Mas d'Adrien plot 7_crop424-892_DSC08676.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20171128_ble_ANJ-28-1_crop424-892_DSC08127.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20171128_colza_BOP-9-211_crop892-190_DSC01595.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20171128_colza_BRA-59-12_crop74-74_SDIM3582.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180227_ble_BRA-11-19_crop892-424_DSC09720.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180227_colza_BLA-1-6-B-Sud_crop892-892_DSC09677.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180227_colza_MER-37-35_crop892-892_DSC09566.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180403_colza_BOX-4-37_crop892-50_DSC00711.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180502_ble_AUZ-10-1-PP_crop892-892_DSC02179.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180502_colza_BRA-59-12_crop190-892_DSC02136.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180528_ble_LAM-3-2_crop190-892_DSC02952.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180528_colza_BOX-3-66_crop424-892_DSC03120.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180528_mais_BOL1_crop424-424_DSC03289.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180620_ble_BLA-1-4_crop608-608_IMG_6676.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180620_ble_PAV-10-1_crop235-235_IMG_6612.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180620_mais_PER13_crop424-424_DSC04253.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180628_mais_PER12B_crop608-608_IMG_6060.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180712_tournesol_ANj25A_crop608-235_IMG_6987.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180727_mais_LAM4_crop48-608_IMG_7386.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180727_tournesol_ANj25B_crop608-608_IMG_7287.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180817_mais_LAM4_crop608-235_IMG_7549.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180824_mais_BOL6_crop608-235_IMG_7673.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20180925_mais_PER13_crop608-48_IMG_8089.png
+docs/DATA/P2S2/masks/P2S2_Site_2_2017-2018_DHP_20181011_mais_BOL27_crop608-48_IMG_8138.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180126_ble_33_1_DS_1_crop940-456_DSC_6647.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180126_colza_32 SS_1_crop456-940_DSC_6686.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180126_colza_Richard_2_crop456-214_DSC_6976.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180412_ble_61_SS_crop940-456_DSC_7236.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180412_colza_Boigneville Hangar 1_crop940-69_DSC_7261.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180502_ble_33_1_SS_1_crop940-69_DSC_7346.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180502_ble_61_DS_crop456-456_DSC_7375.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180502_colza_32 SS_1_crop456-940_DSC_7429.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180502_colza_73_MS_1_crop456-456_DSC_7592.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180502_colza_Boigneville Hangar 1_crop940-214_DSC_7615.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180502_colza_Boigneville Hangar 2_crop940-214_DSC_7634.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180522_mais_Fresnay_2_crop940-214_DSC_8149.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180627_betterave_ESU_3_crop456-940_DSC_8536.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180627_betterave_Hangar Ruines_crop456-456_DSC_8326.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180627_ble_61_DS_crop456-214_DSC_8283.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180730_PDT_Champmot ESU 5_crop50-892_DSC06332.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180730_mais_Tousson parcelle 2 (2)_crop892-424_DSC06247.png
+docs/DATA/P2S2/masks/P2S2_Site_3_2017-2018_DHP_20180913_mais_Parcelle 34_crop892-190_DSC08141.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180314_ble_Diquet apres chicoree_crop894-426_DSC09989.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180314_colza_VRG 02_crop190-892_DSC00112.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180411_colza_Hontoir_crop892-892_DSC01423.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180411_colza_Spontin_crop424-892_DSC01188.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180411_colza_VRG 02_crop892-424_DSC01225.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180516_colza_Dessus Verger_crop892-424_DSC02743.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180516_colza_No 31_crop190-892_DSC02726.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180606_betterave_Campagne de l'ANG_crop892-424_DSC03732.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180606_betterave_Derriere Brichart_crop50-892_DSC03641.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180606_ble_Deriere maison_crop892-892_DSC03581.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180606_colza_Grande terre miniere_crop892-424_DSC03463.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180627_PDT_Terre malet_crop424-892_DSC04816.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180627_ble_Deriere maison_crop892-50_DSC05021.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-4_crop191-894_DSC04662.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-7_crop894-51_DSC04649.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-8_crop894-191_DSC04707.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180718_PDT_Cimetiere de Brye_crop892-424_DSC05935.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180718_PDT_Picaute masset_crop892-892_DSC05693.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180718_mais_Belsar-7_crop50-892_DSC05721.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180808_PDT_Cimetiere de Brye_crop424-892_DSC06823.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180808_PDT_Terre malet_crop892-892_DSC06846.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180808_betterave_Campagne de l'ANG_crop424-424_DSC06940.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180808_betterave_Derriere la station AGIP_crop892-424_DSC06649.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180808_mais_Belsar-5_crop50-892_DSC07075.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Cimetiere de Brye_crop190-892_DSC07801.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Hannon_crop424-892_DSC07702.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Monty_crop424-424_DSC07969.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Saint pierre_crop190-892_DSC07893.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Sonne ville_crop424-424_DSC07865.png
+docs/DATA/P2S2/masks/P2S2_Site_4_2017-2018_DHP_20180905_mais_Belsar-1_crop892-50_DSC08048.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_1.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_2.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_22.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_23.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_24.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_3.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_4.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera21_42.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera2_3.png
+docs/DATA/Phenomobile/images/ARV_AL_BLE_imgCamera3_4.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera21_1.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera21_12.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera21_2.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera21_3.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera21_5.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera22_4.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera2_22.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera2_24.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera2_3.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera2_34.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera3_1.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera3_3.png
+docs/DATA/Phenomobile/images/ARV_AL_LIN_imgCamera3_5.png
+docs/DATA/Phenomobile/images/ARV_AL_PDT_imgCamera21_1.png
+docs/DATA/Phenomobile/images/ARV_AL_PDT_imgCamera21_4.png
+docs/DATA/Phenomobile/images/ARV_AL_PDT_imgCamera21_42.png
+docs/DATA/Phenomobile/images/ARV_AL_PDT_imgCamera22_1.png
+docs/DATA/Phenomobile/images/ARV_AL_PDT_imgCamera2_1.png
+docs/DATA/Phenomobile/images/ARV_AL_PDT_imgCamera3.png
+docs/DATA/Phenomobile/images/ARV_AL_PDT_imgCamera3_1.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera1_3.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera1_32.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera1_4.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera2_1.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera2_31.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera2_32.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera2_33.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera2_3_0_0.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera2_4.png
+docs/DATA/Phenomobile/images/ARV_GRE_BLE_imgCamera2_42.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera1_3.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera1_31.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera2_1.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera2_11.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera2_2.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera2_4.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera3_1.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera3_12.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera3_13.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera3_14.png
+docs/DATA/Phenomobile/images/ARV_MONT_MAIS_imgCamera3_15.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_1.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_12.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_13.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_14.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_15.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_1__.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_2.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_22.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_23.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_3.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_32.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera1_33.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera2_1.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera2_2.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera2_22.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera2_3.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera2_32.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera2_52.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera3_1.png
+docs/DATA/Phenomobile/images/ARV_OUZ_BLE_imgCamera3_2.png
+docs/DATA/Phenomobile/images/MTP_PLOT26_MAIS_imgCamera4_1.png
+docs/DATA/Phenomobile/images/MTP_PLOT26_MAIS_imgCamera4_11.png
+docs/DATA/Phenomobile/images/MTP_PLOT26_MAIS_imgCamera4_12.png
+docs/DATA/Phenomobile/images/MTP_PLOT26_MAIS_imgCamera4_4.png
+docs/DATA/Phenomobile/images/MTP_PLOT26_MAIS_imgCamera4_42.png
+docs/DATA/Phenomobile/images/MTP_PLOT26_MAIS_imgCamera4_421.png
+docs/DATA/Phenomobile/images/MTP_PLOT45_MAIS_imgCamera4_1.png
+docs/DATA/Phenomobile/images/MTP_PLOT45_MAIS_imgCamera4_12.png
+docs/DATA/Phenomobile/images/MTP_PLOT45_MAIS_imgCamera9_11.png
+docs/DATA/Phenomobile/images/MTP_PLOT45_MAIS_imgCamera9_12.png
+docs/DATA/Phenomobile/images/MTP_PLOT45_MAIS_imgCamera9_121.png
+docs/DATA/Phenomobile/images/MTP_PLOT45_MAIS_imgCamera9_2.png
+docs/DATA/Phenomobile/images/MTP_PLOT45_MAIS_imgCamera9_21.png
+docs/DATA/Phenomobile/images/TOUL_002_1_2_1_TOURN_imgCamera4_3.png
+docs/DATA/Phenomobile/images/TOUL_002_1_2_1_TOURN_imgCamera4_31.png
+docs/DATA/Phenomobile/images/TOUL_002_1_2_1_TOURN_imgCamera4_32.png
+docs/DATA/Phenomobile/images/TOUL_002_1_2_1_TOURN_imgCamera4_33.png
+docs/DATA/Phenomobile/images/TOUL_002_1_2_1_TOURN_imgCamera4_34.png
+docs/DATA/Phenomobile/images/TOUL_002_1_2_1_TOURN_imgCamera4_35.png
+docs/DATA/Phenomobile/images/TOUL_002_2_40_1_TOURN_imgCamera4_1.png
+docs/DATA/Phenomobile/images/TOUL_002_2_40_1_TOURN_imgCamera4_12.png
+docs/DATA/Phenomobile/images/TOUL_002_2_40_1_TOURN_imgCamera4_13.png
+docs/DATA/Phenomobile/images/TOUL_002_2_40_1_TOURN_imgCamera4_2.png
+docs/DATA/Phenomobile/images/TOUL_002_2_40_1_TOURN_imgCamera4_3.png
+docs/DATA/Phenomobile/images/TOUL_002_3_78_1_TOURN_imgCamera4_1.png
+docs/DATA/Phenomobile/images/TOUL_002_3_78_1_TOURN_imgCamera4_11.png
+docs/DATA/Phenomobile/images/TOUL_002_3_78_1_TOURN_imgCamera4_12.png
+docs/DATA/Phenomobile/images/TOUL_002_3_78_1_TOURN_imgCamera4_13.png
+docs/DATA/Phenomobile/images/TOUL_002_3_78_1_TOURN_imgCamera4_2.png
+docs/DATA/Phenomobile/images/TOUL_002_3_78_1_TOURN_imgCamera4_3.png
+docs/DATA/Phenomobile/images/imgCamera1_1 (2)_0_512.png
+docs/DATA/Phenomobile/images/imgCamera1_1 (2)_512_0.png
+docs/DATA/Phenomobile/images/imgCamera1_2_0_1024.png
+docs/DATA/Phenomobile/images/imgCamera1_2_1024_1024.png
+docs/DATA/Phenomobile/images/imgCamera1_2_1024_2048.png
+docs/DATA/Phenomobile/images/imgCamera1_2_1536_0.png
+docs/DATA/Phenomobile/images/imgCamera1_2_1536_512.png
+docs/DATA/Phenomobile/images/imgCamera1_2_2048_2048.png
+docs/DATA/Phenomobile/images/imgCamera1_2_2048_512.png
+docs/DATA/Phenomobile/images/imgCamera1_3_0_1024.png
+docs/DATA/Phenomobile/images/imgCamera1_3_0_2560.png
+docs/DATA/Phenomobile/images/imgCamera1_3_1024_0.png
+docs/DATA/Phenomobile/images/imgCamera1_3_512_1536.png
+docs/DATA/Phenomobile/images/imgCamera21_2 (2)_0_2048.png
+docs/DATA/Phenomobile/images/imgCamera21_2 (2)_1536_1024.png
+docs/DATA/Phenomobile/images/imgCamera21_2 (2)_1536_512.png
+docs/DATA/Phenomobile/images/imgCamera21_2 (2)_512_0.png
+docs/DATA/Phenomobile/images/imgCamera21_2 (2)_512_512.png
+docs/DATA/Phenomobile/images/imgCamera21_2 (3)_0_1536.png
+docs/DATA/Phenomobile/images/imgCamera21_3_0_1536.png
+docs/DATA/Phenomobile/images/imgCamera21_3_2048_512.png
+docs/DATA/Phenomobile/images/imgCamera21_3_512_1536.png
+docs/DATA/Phenomobile/images/imgCamera21_5_0_0.png
+docs/DATA/Phenomobile/images/imgCamera21_5_1024_1536.png
+docs/DATA/Phenomobile/images/imgCamera21_5_1536_2048.png
+docs/DATA/Phenomobile/images/imgCamera22_2_0_1024.png
+docs/DATA/Phenomobile/images/imgCamera22_3 (2)_512_1024.png
+docs/DATA/Phenomobile/images/imgCamera22_4_0_1024.png
+docs/DATA/Phenomobile/images/imgCamera22_4_0_512.png
+docs/DATA/Phenomobile/images/imgCamera22_4_512_1024.png
+docs/DATA/Phenomobile/images/imgCamera2_1 (2)_1536_512.png
+docs/DATA/Phenomobile/images/imgCamera2_1_0_0.png
+docs/DATA/Phenomobile/images/imgCamera2_1_0_1536.png
+docs/DATA/Phenomobile/images/imgCamera2_1_1024_0.png
+docs/DATA/Phenomobile/images/imgCamera2_1_1024_1024.png
+docs/DATA/Phenomobile/images/imgCamera2_1_1024_512.png
+docs/DATA/Phenomobile/images/imgCamera2_1_2048_0.png
+docs/DATA/Phenomobile/images/imgCamera2_1_2048_512.png
+docs/DATA/Phenomobile/images/imgCamera2_1_512_0.png
+docs/DATA/Phenomobile/images/imgCamera2_1_512_1024.png
+docs/DATA/Phenomobile/images/imgCamera2_2_1024_1536.png
+docs/DATA/Phenomobile/images/imgCamera2_2_1024_2048.png
+docs/DATA/Phenomobile/images/imgCamera2_2_2048_1024.png
+docs/DATA/Phenomobile/images/imgCamera2_3 (2)_0_0.png
+docs/DATA/Phenomobile/images/imgCamera2_3 (2)_1024_512.png
+docs/DATA/Phenomobile/images/imgCamera2_3 (3)_0_512.png
+docs/DATA/Phenomobile/images/imgCamera2_3 (4)_1024_512.png
+docs/DATA/Phenomobile/images/imgCamera2_3 (4)_512_0.png
+docs/DATA/Phenomobile/images/imgCamera2_3 (4)_512_512.png
+docs/DATA/Phenomobile/images/imgCamera2_3_0_2048.png
+docs/DATA/Phenomobile/images/imgCamera2_3_2048_0.png
+docs/DATA/Phenomobile/images/imgCamera2_3_512_0.png
+docs/DATA/Phenomobile/images/imgCamera2_4 (2)_0_0.png
+docs/DATA/Phenomobile/images/imgCamera2_4 (2)_1536_0.png
+docs/DATA/Phenomobile/images/imgCamera2_4 (2)_512_512.png
+docs/DATA/Phenomobile/images/imgCamera2_5 (2)_0_2048.png
+docs/DATA/Phenomobile/images/imgCamera2_5 (2)_1024_512.png
+docs/DATA/Phenomobile/images/imgCamera2_5 (2)_512_1536.png
+docs/DATA/Phenomobile/images/imgCamera3_1 (2)_2048_0.png
+docs/DATA/Phenomobile/images/imgCamera3_1 (2)_2048_2560.png
+docs/DATA/Phenomobile/images/imgCamera3_1_0_1536.png
+docs/DATA/Phenomobile/images/imgCamera3_1_1024_1024.png
+docs/DATA/Phenomobile/images/imgCamera3_1_2048_1024.png
+docs/DATA/Phenomobile/images/imgCamera3_1_512_2048.png
+docs/DATA/Phenomobile/images/imgCamera3_2_0_0.png
+docs/DATA/Phenomobile/images/imgCamera3_2_2048_1536.png
+docs/DATA/Phenomobile/images/imgCamera3_2_2048_2048.png
+docs/DATA/Phenomobile/images/imgCamera3_2_512_0.png
+docs/DATA/Phenomobile/images/imgCamera3_2_512_1024.png
+docs/DATA/Phenomobile/images/imgCamera3_2_512_512.png
+docs/DATA/Phenomobile/images/imgCamera3_5 (2)_512_512.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_1.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_2.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_22.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_23.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_24.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_3.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_4.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera21_42.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera2_3.png
+docs/DATA/Phenomobile/masks/ARV_AL_BLE_imgCamera3_4.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera21_1.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera21_12.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera21_2.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera21_3.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera21_5.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera22_4.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera2_22.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera2_24.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera2_3.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera2_34.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera3_1.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera3_3.png
+docs/DATA/Phenomobile/masks/ARV_AL_LIN_imgCamera3_5.png
+docs/DATA/Phenomobile/masks/ARV_AL_PDT_imgCamera21_1.png
+docs/DATA/Phenomobile/masks/ARV_AL_PDT_imgCamera21_4.png
+docs/DATA/Phenomobile/masks/ARV_AL_PDT_imgCamera21_42.png
+docs/DATA/Phenomobile/masks/ARV_AL_PDT_imgCamera22_1.png
+docs/DATA/Phenomobile/masks/ARV_AL_PDT_imgCamera2_1.png
+docs/DATA/Phenomobile/masks/ARV_AL_PDT_imgCamera3.png
+docs/DATA/Phenomobile/masks/ARV_AL_PDT_imgCamera3_1.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera1_3.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera1_32.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera1_4.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera2_1.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera2_31.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera2_32.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera2_33.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera2_3_0_0.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera2_4.png
+docs/DATA/Phenomobile/masks/ARV_GRE_BLE_imgCamera2_42.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera1_3.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera1_31.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera2_1.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera2_11.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera2_2.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera2_4.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera3_1.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera3_12.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera3_13.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera3_14.png
+docs/DATA/Phenomobile/masks/ARV_MONT_MAIS_imgCamera3_15.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_1.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_12.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_13.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_14.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_15.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_1__.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_2.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_22.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_23.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_3.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_32.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera1_33.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera2_1.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera2_2.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera2_22.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera2_3.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera2_32.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera2_52.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera3_1.png
+docs/DATA/Phenomobile/masks/ARV_OUZ_BLE_imgCamera3_2.png
+docs/DATA/Phenomobile/masks/MTP_PLOT26_MAIS_imgCamera4_1.png
+docs/DATA/Phenomobile/masks/MTP_PLOT26_MAIS_imgCamera4_11.png
+docs/DATA/Phenomobile/masks/MTP_PLOT26_MAIS_imgCamera4_12.png
+docs/DATA/Phenomobile/masks/MTP_PLOT26_MAIS_imgCamera4_4.png
+docs/DATA/Phenomobile/masks/MTP_PLOT26_MAIS_imgCamera4_42.png
+docs/DATA/Phenomobile/masks/MTP_PLOT26_MAIS_imgCamera4_421.png
+docs/DATA/Phenomobile/masks/MTP_PLOT45_MAIS_imgCamera4_1.png
+docs/DATA/Phenomobile/masks/MTP_PLOT45_MAIS_imgCamera4_12.png
+docs/DATA/Phenomobile/masks/MTP_PLOT45_MAIS_imgCamera9_11.png
+docs/DATA/Phenomobile/masks/MTP_PLOT45_MAIS_imgCamera9_12.png
+docs/DATA/Phenomobile/masks/MTP_PLOT45_MAIS_imgCamera9_121.png
+docs/DATA/Phenomobile/masks/MTP_PLOT45_MAIS_imgCamera9_2.png
+docs/DATA/Phenomobile/masks/MTP_PLOT45_MAIS_imgCamera9_21.png
+docs/DATA/Phenomobile/masks/TOUL_002_1_2_1_TOURN_imgCamera4_3.png
+docs/DATA/Phenomobile/masks/TOUL_002_1_2_1_TOURN_imgCamera4_31.png
+docs/DATA/Phenomobile/masks/TOUL_002_1_2_1_TOURN_imgCamera4_32.png
+docs/DATA/Phenomobile/masks/TOUL_002_1_2_1_TOURN_imgCamera4_33.png
+docs/DATA/Phenomobile/masks/TOUL_002_1_2_1_TOURN_imgCamera4_34.png
+docs/DATA/Phenomobile/masks/TOUL_002_1_2_1_TOURN_imgCamera4_35.png
+docs/DATA/Phenomobile/masks/TOUL_002_2_40_1_TOURN_imgCamera4_1.png
+docs/DATA/Phenomobile/masks/TOUL_002_2_40_1_TOURN_imgCamera4_12.png
+docs/DATA/Phenomobile/masks/TOUL_002_2_40_1_TOURN_imgCamera4_13.png
+docs/DATA/Phenomobile/masks/TOUL_002_2_40_1_TOURN_imgCamera4_2.png
+docs/DATA/Phenomobile/masks/TOUL_002_2_40_1_TOURN_imgCamera4_3.png
+docs/DATA/Phenomobile/masks/TOUL_002_3_78_1_TOURN_imgCamera4_1.png
+docs/DATA/Phenomobile/masks/TOUL_002_3_78_1_TOURN_imgCamera4_11.png
+docs/DATA/Phenomobile/masks/TOUL_002_3_78_1_TOURN_imgCamera4_12.png
+docs/DATA/Phenomobile/masks/TOUL_002_3_78_1_TOURN_imgCamera4_13.png
+docs/DATA/Phenomobile/masks/TOUL_002_3_78_1_TOURN_imgCamera4_2.png
+docs/DATA/Phenomobile/masks/TOUL_002_3_78_1_TOURN_imgCamera4_3.png
+docs/DATA/Phenomobile/masks/imgCamera1_1 (2)_0_512.png
+docs/DATA/Phenomobile/masks/imgCamera1_1 (2)_512_0.png
+docs/DATA/Phenomobile/masks/imgCamera1_2_0_1024.png
+docs/DATA/Phenomobile/masks/imgCamera1_2_1024_1024.png
+docs/DATA/Phenomobile/masks/imgCamera1_2_1024_2048.png
+docs/DATA/Phenomobile/masks/imgCamera1_2_1536_0.png
+docs/DATA/Phenomobile/masks/imgCamera1_2_1536_512.png
+docs/DATA/Phenomobile/masks/imgCamera1_2_2048_2048.png
+docs/DATA/Phenomobile/masks/imgCamera1_2_2048_512.png
+docs/DATA/Phenomobile/masks/imgCamera1_3_0_1024.png
+docs/DATA/Phenomobile/masks/imgCamera1_3_0_2560.png
+docs/DATA/Phenomobile/masks/imgCamera1_3_1024_0.png
+docs/DATA/Phenomobile/masks/imgCamera1_3_512_1536.png
+docs/DATA/Phenomobile/masks/imgCamera21_2 (2)_0_2048.png
+docs/DATA/Phenomobile/masks/imgCamera21_2 (2)_1536_1024.png
+docs/DATA/Phenomobile/masks/imgCamera21_2 (2)_1536_512.png
+docs/DATA/Phenomobile/masks/imgCamera21_2 (2)_512_0.png
+docs/DATA/Phenomobile/masks/imgCamera21_2 (2)_512_512.png
+docs/DATA/Phenomobile/masks/imgCamera21_2 (3)_0_1536.png
+docs/DATA/Phenomobile/masks/imgCamera21_3_0_1536.png
+docs/DATA/Phenomobile/masks/imgCamera21_3_2048_512.png
+docs/DATA/Phenomobile/masks/imgCamera21_3_512_1536.png
+docs/DATA/Phenomobile/masks/imgCamera21_5_0_0.png
+docs/DATA/Phenomobile/masks/imgCamera21_5_1024_1536.png
+docs/DATA/Phenomobile/masks/imgCamera21_5_1536_2048.png
+docs/DATA/Phenomobile/masks/imgCamera22_2_0_1024.png
+docs/DATA/Phenomobile/masks/imgCamera22_3 (2)_512_1024.png
+docs/DATA/Phenomobile/masks/imgCamera22_4_0_1024.png
+docs/DATA/Phenomobile/masks/imgCamera22_4_0_512.png
+docs/DATA/Phenomobile/masks/imgCamera22_4_512_1024.png
+docs/DATA/Phenomobile/masks/imgCamera2_1 (2)_1536_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_0_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_0_1536.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_1024_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_1024_1024.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_1024_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_2048_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_2048_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_512_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_1_512_1024.png
+docs/DATA/Phenomobile/masks/imgCamera2_2_1024_1536.png
+docs/DATA/Phenomobile/masks/imgCamera2_2_1024_2048.png
+docs/DATA/Phenomobile/masks/imgCamera2_2_2048_1024.png
+docs/DATA/Phenomobile/masks/imgCamera2_3 (2)_0_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_3 (2)_1024_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_3 (3)_0_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_3 (4)_1024_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_3 (4)_512_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_3 (4)_512_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_3_0_2048.png
+docs/DATA/Phenomobile/masks/imgCamera2_3_2048_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_3_512_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_4 (2)_0_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_4 (2)_1536_0.png
+docs/DATA/Phenomobile/masks/imgCamera2_4 (2)_512_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_5 (2)_0_2048.png
+docs/DATA/Phenomobile/masks/imgCamera2_5 (2)_1024_512.png
+docs/DATA/Phenomobile/masks/imgCamera2_5 (2)_512_1536.png
+docs/DATA/Phenomobile/masks/imgCamera3_1 (2)_2048_0.png
+docs/DATA/Phenomobile/masks/imgCamera3_1 (2)_2048_2560.png
+docs/DATA/Phenomobile/masks/imgCamera3_1_0_1536.png
+docs/DATA/Phenomobile/masks/imgCamera3_1_1024_1024.png
+docs/DATA/Phenomobile/masks/imgCamera3_1_2048_1024.png
+docs/DATA/Phenomobile/masks/imgCamera3_1_512_2048.png
+docs/DATA/Phenomobile/masks/imgCamera3_2_0_0.png
+docs/DATA/Phenomobile/masks/imgCamera3_2_2048_1536.png
+docs/DATA/Phenomobile/masks/imgCamera3_2_2048_2048.png
+docs/DATA/Phenomobile/masks/imgCamera3_2_512_0.png
+docs/DATA/Phenomobile/masks/imgCamera3_2_512_1024.png
+docs/DATA/Phenomobile/masks/imgCamera3_2_512_512.png
+docs/DATA/Phenomobile/masks/imgCamera3_5 (2)_512_512.png
+docs/DATA/Session 2021-03-17 14-19-59/l1/rgb_images/Plot108_Camera1_1.jpg
+docs/DATA/Session 2021-03-17 14-19-59/l1/segmentation/Plot108_Camera1_1.png
+docs/DATA/Session 2021-03-17 14-19-59/l2/visualisation_segmentation_yellow_green/XGBoost
+docs/DATA/Session 2021-03-17 14-19-59/log/yellowgreen-multi.log
+docs/ZENODO/USED.csv
+docs/ZENODO/VERY_ALL.csv
+docs/ZENODO/IMAGES/0_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/10_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/11_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/12_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/13_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/14_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/15_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/16_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/17_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/18_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/19_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/1_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/20_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/21_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/22_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/23_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/24_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/25_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/26_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/27_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/28_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/29_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/2_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/30_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/31_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/32_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/33_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/34_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/35_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/36_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/37_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/38_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/39_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/3_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/40_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/41_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/42_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/43_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/44_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/45_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/46_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/47_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/48_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/49_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/4_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/50_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/51_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/52_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/53_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/54_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/55_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/56_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/57_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/58_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/59_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/5_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/60_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/61_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/62_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/63_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/64_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/65_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/66_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/67_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/68_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/69_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/6_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/70_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/71_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/72_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/73_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/74_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/75_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/76_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/77_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/78_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/79_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/7_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/80_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/81_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/82_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/83_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/84_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/85_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/86_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/87_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/88_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/89_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/8_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/90_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/91_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/92_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/93_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/94_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/95_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/96_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/97_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/98_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/99_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/9_Selec-100-dhp-round2.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_1.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_2.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_22.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_23.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_24.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_3.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_4.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera21_42.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera2_3.png
+docs/ZENODO/IMAGES/ARV_AL_BLE_imgCamera3_4.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera21_1.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera21_12.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera21_2.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera21_3.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera21_5.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera22_4.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera2_22.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera2_24.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera2_3.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera2_34.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera3_1.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera3_3.png
+docs/ZENODO/IMAGES/ARV_AL_LIN_imgCamera3_5.png
+docs/ZENODO/IMAGES/ARV_AL_PDT_imgCamera21_1.png
+docs/ZENODO/IMAGES/ARV_AL_PDT_imgCamera21_4.png
+docs/ZENODO/IMAGES/ARV_AL_PDT_imgCamera21_42.png
+docs/ZENODO/IMAGES/ARV_AL_PDT_imgCamera22_1.png
+docs/ZENODO/IMAGES/ARV_AL_PDT_imgCamera2_1.png
+docs/ZENODO/IMAGES/ARV_AL_PDT_imgCamera3.png
+docs/ZENODO/IMAGES/ARV_AL_PDT_imgCamera3_1.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera1_3.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera1_32.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera1_4.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera2_1.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera2_31.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera2_32.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera2_33.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera2_3_0_0.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera2_4.png
+docs/ZENODO/IMAGES/ARV_GRE_BLE_imgCamera2_42.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera1_3.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera1_31.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera2_1.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera2_11.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera2_2.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera2_4.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera3_1.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera3_12.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera3_13.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera3_14.png
+docs/ZENODO/IMAGES/ARV_MONT_MAIS_imgCamera3_15.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_1.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_12.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_13.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_14.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_15.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_1__.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_2.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_22.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_23.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_3.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_32.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera1_33.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera2_1.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera2_2.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera2_22.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera2_3.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera2_32.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera2_52.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera3_1.png
+docs/ZENODO/IMAGES/ARV_OUZ_BLE_imgCamera3_2.png
+docs/ZENODO/IMAGES/LiteralDataset_1.png
+docs/ZENODO/IMAGES/LiteralDataset_10.png
+docs/ZENODO/IMAGES/LiteralDataset_11.png
+docs/ZENODO/IMAGES/LiteralDataset_12.png
+docs/ZENODO/IMAGES/LiteralDataset_13.png
+docs/ZENODO/IMAGES/LiteralDataset_14.png
+docs/ZENODO/IMAGES/LiteralDataset_15.png
+docs/ZENODO/IMAGES/LiteralDataset_16.png
+docs/ZENODO/IMAGES/LiteralDataset_17.png
+docs/ZENODO/IMAGES/LiteralDataset_18.png
+docs/ZENODO/IMAGES/LiteralDataset_19.png
+docs/ZENODO/IMAGES/LiteralDataset_2.png
+docs/ZENODO/IMAGES/LiteralDataset_20.png
+docs/ZENODO/IMAGES/LiteralDataset_21.png
+docs/ZENODO/IMAGES/LiteralDataset_22.png
+docs/ZENODO/IMAGES/LiteralDataset_23.png
+docs/ZENODO/IMAGES/LiteralDataset_24.png
+docs/ZENODO/IMAGES/LiteralDataset_25.png
+docs/ZENODO/IMAGES/LiteralDataset_26.png
+docs/ZENODO/IMAGES/LiteralDataset_27.png
+docs/ZENODO/IMAGES/LiteralDataset_28.png
+docs/ZENODO/IMAGES/LiteralDataset_29.png
+docs/ZENODO/IMAGES/LiteralDataset_3.png
+docs/ZENODO/IMAGES/LiteralDataset_30.png
+docs/ZENODO/IMAGES/LiteralDataset_31.png
+docs/ZENODO/IMAGES/LiteralDataset_32.png
+docs/ZENODO/IMAGES/LiteralDataset_33.png
+docs/ZENODO/IMAGES/LiteralDataset_34.png
+docs/ZENODO/IMAGES/LiteralDataset_35.png
+docs/ZENODO/IMAGES/LiteralDataset_36.png
+docs/ZENODO/IMAGES/LiteralDataset_37.png
+docs/ZENODO/IMAGES/LiteralDataset_38.png
+docs/ZENODO/IMAGES/LiteralDataset_39.png
+docs/ZENODO/IMAGES/LiteralDataset_4.png
+docs/ZENODO/IMAGES/LiteralDataset_5.png
+docs/ZENODO/IMAGES/LiteralDataset_50.png
+docs/ZENODO/IMAGES/LiteralDataset_51.png
+docs/ZENODO/IMAGES/LiteralDataset_52.png
+docs/ZENODO/IMAGES/LiteralDataset_53.png
+docs/ZENODO/IMAGES/LiteralDataset_54.png
+docs/ZENODO/IMAGES/LiteralDataset_55.png
+docs/ZENODO/IMAGES/LiteralDataset_56.png
+docs/ZENODO/IMAGES/LiteralDataset_57.png
+docs/ZENODO/IMAGES/LiteralDataset_58.png
+docs/ZENODO/IMAGES/LiteralDataset_59.png
+docs/ZENODO/IMAGES/LiteralDataset_6.png
+docs/ZENODO/IMAGES/LiteralDataset_60.png
+docs/ZENODO/IMAGES/LiteralDataset_61.png
+docs/ZENODO/IMAGES/LiteralDataset_62.png
+docs/ZENODO/IMAGES/LiteralDataset_63.png
+docs/ZENODO/IMAGES/LiteralDataset_64.png
+docs/ZENODO/IMAGES/LiteralDataset_65.png
+docs/ZENODO/IMAGES/LiteralDataset_66.png
+docs/ZENODO/IMAGES/LiteralDataset_67.png
+docs/ZENODO/IMAGES/LiteralDataset_68.png
+docs/ZENODO/IMAGES/LiteralDataset_69.png
+docs/ZENODO/IMAGES/LiteralDataset_7.png
+docs/ZENODO/IMAGES/LiteralDataset_70.png
+docs/ZENODO/IMAGES/LiteralDataset_71.png
+docs/ZENODO/IMAGES/LiteralDataset_72.png
+docs/ZENODO/IMAGES/LiteralDataset_73.png
+docs/ZENODO/IMAGES/LiteralDataset_74.png
+docs/ZENODO/IMAGES/LiteralDataset_75.png
+docs/ZENODO/IMAGES/LiteralDataset_76.png
+docs/ZENODO/IMAGES/LiteralDataset_77.png
+docs/ZENODO/IMAGES/LiteralDataset_8.png
+docs/ZENODO/IMAGES/LiteralDataset_9.png
+docs/ZENODO/IMAGES/MTP_PLOT26_MAIS_imgCamera4_1.png
+docs/ZENODO/IMAGES/MTP_PLOT26_MAIS_imgCamera4_11.png
+docs/ZENODO/IMAGES/MTP_PLOT26_MAIS_imgCamera4_12.png
+docs/ZENODO/IMAGES/MTP_PLOT26_MAIS_imgCamera4_4.png
+docs/ZENODO/IMAGES/MTP_PLOT26_MAIS_imgCamera4_42.png
+docs/ZENODO/IMAGES/MTP_PLOT26_MAIS_imgCamera4_421.png
+docs/ZENODO/IMAGES/MTP_PLOT45_MAIS_imgCamera4_1.png
+docs/ZENODO/IMAGES/MTP_PLOT45_MAIS_imgCamera4_12.png
+docs/ZENODO/IMAGES/MTP_PLOT45_MAIS_imgCamera9_11.png
+docs/ZENODO/IMAGES/MTP_PLOT45_MAIS_imgCamera9_12.png
+docs/ZENODO/IMAGES/MTP_PLOT45_MAIS_imgCamera9_121.png
+docs/ZENODO/IMAGES/MTP_PLOT45_MAIS_imgCamera9_2.png
+docs/ZENODO/IMAGES/MTP_PLOT45_MAIS_imgCamera9_21.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Merle_Bellevue_crop892-892_DSC09149.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Suffren_8008_crop190-892_DSC09236.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180214_Prairie_Suffren_8022_crop50-892_DSC09216.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180221_ble_Vigne_9748_crop892-892_DSC09326.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180327_Prairie_Merle_2C_crop190-892_DSC00357.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180327_ble_Furanne_6305_crop892-190_DSC00462.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180327_ble_Furanne_6323_crop892-424_DSC00488.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180327_ble_Gouine_8478_crop190-892_DSC00616.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180327_ble_Gouines_8703_crop51-894_DSC00629.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180327_ble_Mejanes_37-38_crop424-892_DSC00587.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180509_Prairie_Merle_1M_crop892-892_DSC02233.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180524_ble_Furanne_6305_crop892-50_DSC02763.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180524_ble_Mejanes_36_crop892-190_DSC02914.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180613_ble_Mejanes_36_crop50-892_DSC03887.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180613_tournesol_Mas Blanc plot 1 Sud_crop892-190_DSC03972.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180613_tournesol_Mejanes_crop424-892_DSC03903.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180703_mais_Mas blanc plot 2 Nord_crop191-894_DSC05269.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180703_rice_41-B-Mejanes_crop424-424_DSC05547.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180703_tournesol_3274_Fauranne_crop892-190_DSC05133.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180703_tournesol_Mas Blanc plot 5 Nord_crop424-892_DSC05239.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180803_mais_Mas d'Adrien plot 5_crop892-50_DSC06619.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180803_tournesol_Mas Blanc plot 5 Sud_crop892-424_DSC06542.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180822_mais_Mas d'Adrien plot 5_crop190-892_DSC07607.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180822_rice_Goult-1_crop892-50_DSC07183.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180822_tournesol_Mas Blanc plot 1 Sud_crop892-190_DSC07388.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180822_tournesol_Mas Blanc plot 5 Sud_crop424-424_DSC07549.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180920_rice_3299_3287_Fauranne_crop424-424_DSC08448.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180924_mais_Mas Blanc plot 1 Nord_crop892-424_DSC08666.png
+docs/ZENODO/IMAGES/P2S2_Site_1_2017-2018_DHP_20180924_mais_Mas d'Adrien plot 7_crop424-892_DSC08676.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20171128_ble_ANJ-28-1_crop424-892_DSC08127.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20171128_colza_BOP-9-211_crop892-190_DSC01595.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20171128_colza_BRA-59-12_crop74-74_SDIM3582.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180227_ble_BRA-11-19_crop892-424_DSC09720.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180227_colza_BLA-1-6-B-Sud_crop892-892_DSC09677.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180227_colza_MER-37-35_crop892-892_DSC09566.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180403_colza_BOX-4-37_crop892-50_DSC00711.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180502_ble_AUZ-10-1-PP_crop892-892_DSC02179.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180502_colza_BRA-59-12_crop190-892_DSC02136.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180528_ble_LAM-3-2_crop190-892_DSC02952.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180528_colza_BOX-3-66_crop424-892_DSC03120.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180528_mais_BOL1_crop424-424_DSC03289.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180620_ble_BLA-1-4_crop608-608_IMG_6676.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180620_ble_PAV-10-1_crop235-235_IMG_6612.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180620_mais_PER13_crop424-424_DSC04253.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180628_mais_PER12B_crop608-608_IMG_6060.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180712_tournesol_ANj25A_crop608-235_IMG_6987.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180727_mais_LAM4_crop48-608_IMG_7386.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180727_tournesol_ANj25B_crop608-608_IMG_7287.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180817_mais_LAM4_crop608-235_IMG_7549.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180824_mais_BOL6_crop608-235_IMG_7673.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20180925_mais_PER13_crop608-48_IMG_8089.png
+docs/ZENODO/IMAGES/P2S2_Site_2_2017-2018_DHP_20181011_mais_BOL27_crop608-48_IMG_8138.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180126_ble_33_1_DS_1_crop940-456_DSC_6647.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180126_colza_32 SS_1_crop456-940_DSC_6686.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180126_colza_Richard_2_crop456-214_DSC_6976.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180412_ble_61_SS_crop940-456_DSC_7236.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180412_colza_Boigneville Hangar 1_crop940-69_DSC_7261.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180502_ble_33_1_SS_1_crop940-69_DSC_7346.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180502_ble_61_DS_crop456-456_DSC_7375.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180502_colza_32 SS_1_crop456-940_DSC_7429.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180502_colza_73_MS_1_crop456-456_DSC_7592.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180502_colza_Boigneville Hangar 1_crop940-214_DSC_7615.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180502_colza_Boigneville Hangar 2_crop940-214_DSC_7634.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180522_mais_Fresnay_2_crop940-214_DSC_8149.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180627_betterave_ESU_3_crop456-940_DSC_8536.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180627_betterave_Hangar Ruines_crop456-456_DSC_8326.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180627_ble_61_DS_crop456-214_DSC_8283.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180730_PDT_Champmot ESU 5_crop50-892_DSC06332.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180730_mais_Tousson parcelle 2 (2)_crop892-424_DSC06247.png
+docs/ZENODO/IMAGES/P2S2_Site_3_2017-2018_DHP_20180913_mais_Parcelle 34_crop892-190_DSC08141.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180314_ble_Diquet apres chicoree_crop894-426_DSC09989.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180314_colza_VRG 02_crop190-892_DSC00112.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180411_colza_Hontoir_crop892-892_DSC01423.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180411_colza_Spontin_crop424-892_DSC01188.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180411_colza_VRG 02_crop892-424_DSC01225.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180516_colza_Dessus Verger_crop892-424_DSC02743.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180516_colza_No 31_crop190-892_DSC02726.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180606_betterave_Campagne de l'ANG_crop892-424_DSC03732.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180606_betterave_Derriere Brichart_crop50-892_DSC03641.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180606_ble_Deriere maison_crop892-892_DSC03581.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180606_colza_Grande terre miniere_crop892-424_DSC03463.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180627_PDT_Terre malet_crop424-892_DSC04816.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180627_ble_Deriere maison_crop892-50_DSC05021.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-4_crop191-894_DSC04662.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-7_crop894-51_DSC04649.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180627_mais_Belsar-8_crop894-191_DSC04707.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180718_PDT_Cimetiere de Brye_crop892-424_DSC05935.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180718_PDT_Picaute masset_crop892-892_DSC05693.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180718_mais_Belsar-7_crop50-892_DSC05721.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180808_PDT_Cimetiere de Brye_crop424-892_DSC06823.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180808_PDT_Terre malet_crop892-892_DSC06846.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180808_betterave_Campagne de l'ANG_crop424-424_DSC06940.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180808_betterave_Derriere la station AGIP_crop892-424_DSC06649.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180808_mais_Belsar-5_crop50-892_DSC07075.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Cimetiere de Brye_crop190-892_DSC07801.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Hannon_crop424-892_DSC07702.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Monty_crop424-424_DSC07969.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Saint pierre_crop190-892_DSC07893.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180905_PDT_Sonne ville_crop424-424_DSC07865.png
+docs/ZENODO/IMAGES/P2S2_Site_4_2017-2018_DHP_20180905_mais_Belsar-1_crop892-50_DSC08048.png
+docs/ZENODO/IMAGES/TOUL_002_1_2_1_TOURN_imgCamera4_3.png
+docs/ZENODO/IMAGES/TOUL_002_1_2_1_TOURN_imgCamera4_31.png
+docs/ZENODO/IMAGES/TOUL_002_1_2_1_TOURN_imgCamera4_32.png
+docs/ZENODO/IMAGES/TOUL_002_1_2_1_TOURN_imgCamera4_33.png
+docs/ZENODO/IMAGES/TOUL_002_1_2_1_TOURN_imgCamera4_34.png
+docs/ZENODO/IMAGES/TOUL_002_1_2_1_TOURN_imgCamera4_35.png
+docs/ZENODO/IMAGES/TOUL_002_2_40_1_TOURN_imgCamera4_1.png
+docs/ZENODO/IMAGES/TOUL_002_2_40_1_TOURN_imgCamera4_12.png
+docs/ZENODO/IMAGES/TOUL_002_2_40_1_TOURN_imgCamera4_13.png
+docs/ZENODO/IMAGES/TOUL_002_2_40_1_TOURN_imgCamera4_2.png
+docs/ZENODO/IMAGES/TOUL_002_2_40_1_TOURN_imgCamera4_3.png
+docs/ZENODO/IMAGES/TOUL_002_3_78_1_TOURN_imgCamera4_1.png
+docs/ZENODO/IMAGES/TOUL_002_3_78_1_TOURN_imgCamera4_11.png
+docs/ZENODO/IMAGES/TOUL_002_3_78_1_TOURN_imgCamera4_12.png
+docs/ZENODO/IMAGES/TOUL_002_3_78_1_TOURN_imgCamera4_13.png
+docs/ZENODO/IMAGES/TOUL_002_3_78_1_TOURN_imgCamera4_2.png
+docs/ZENODO/IMAGES/TOUL_002_3_78_1_TOURN_imgCamera4_3.png
+docs/ZENODO/IMAGES/imgCamera1_1 (2)_0_512.png
+docs/ZENODO/IMAGES/imgCamera1_1 (2)_512_0.png
+docs/ZENODO/IMAGES/imgCamera1_2_0_1024.png
+docs/ZENODO/IMAGES/imgCamera1_2_1024_1024.png
+docs/ZENODO/IMAGES/imgCamera1_2_1024_2048.png
+docs/ZENODO/IMAGES/imgCamera1_2_1536_0.png
+docs/ZENODO/IMAGES/imgCamera1_2_1536_512.png
+docs/ZENODO/IMAGES/imgCamera1_2_2048_2048.png
+docs/ZENODO/IMAGES/imgCamera1_2_2048_512.png
+docs/ZENODO/IMAGES/imgCamera1_3_0_1024.png
+docs/ZENODO/IMAGES/imgCamera1_3_0_2560.png
+docs/ZENODO/IMAGES/imgCamera1_3_1024_0.png
+docs/ZENODO/IMAGES/imgCamera1_3_512_1536.png
+docs/ZENODO/IMAGES/imgCamera21_2 (2)_0_2048.png
+docs/ZENODO/IMAGES/imgCamera21_2 (2)_1536_1024.png
+docs/ZENODO/IMAGES/imgCamera21_2 (2)_1536_512.png
+docs/ZENODO/IMAGES/imgCamera21_2 (2)_512_0.png
+docs/ZENODO/IMAGES/imgCamera21_2 (2)_512_512.png
+docs/ZENODO/IMAGES/imgCamera21_2 (3)_0_1536.png
+docs/ZENODO/IMAGES/imgCamera21_3_0_1536.png
+docs/ZENODO/IMAGES/imgCamera21_3_2048_512.png
+docs/ZENODO/IMAGES/imgCamera21_3_512_1536.png
+docs/ZENODO/IMAGES/imgCamera21_5_0_0.png
+docs/ZENODO/IMAGES/imgCamera21_5_1024_1536.png
+docs/ZENODO/IMAGES/imgCamera21_5_1536_2048.png
+docs/ZENODO/IMAGES/imgCamera22_2_0_1024.png
+docs/ZENODO/IMAGES/imgCamera22_3 (2)_512_1024.png
+docs/ZENODO/IMAGES/imgCamera22_4_0_1024.png
+docs/ZENODO/IMAGES/imgCamera22_4_0_512.png
+docs/ZENODO/IMAGES/imgCamera22_4_512_1024.png
+docs/ZENODO/IMAGES/imgCamera2_1 (2)_1536_512.png
+docs/ZENODO/IMAGES/imgCamera2_1_0_0.png
+docs/ZENODO/IMAGES/imgCamera2_1_0_1536.png
+docs/ZENODO/IMAGES/imgCamera2_1_1024_0.png
+docs/ZENODO/IMAGES/imgCamera2_1_1024_1024.png
+docs/ZENODO/IMAGES/imgCamera2_1_1024_512.png
+docs/ZENODO/IMAGES/imgCamera2_1_2048_0.png
+docs/ZENODO/IMAGES/imgCamera2_1_2048_512.png
+docs/ZENODO/IMAGES/imgCamera2_1_512_0.png
+docs/ZENODO/IMAGES/imgCamera2_1_512_1024.png
+docs/ZENODO/IMAGES/imgCamera2_2_1024_1536.png
+docs/ZENODO/IMAGES/imgCamera2_2_1024_2048.png
+docs/ZENODO/IMAGES/imgCamera2_2_2048_1024.png
+docs/ZENODO/IMAGES/imgCamera2_3 (2)_0_0.png
+docs/ZENODO/IMAGES/imgCamera2_3 (2)_1024_512.png
+docs/ZENODO/IMAGES/imgCamera2_3 (3)_0_512.png
+docs/ZENODO/IMAGES/imgCamera2_3 (4)_1024_512.png
+docs/ZENODO/IMAGES/imgCamera2_3 (4)_512_0.png
+docs/ZENODO/IMAGES/imgCamera2_3 (4)_512_512.png
+docs/ZENODO/IMAGES/imgCamera2_3_0_2048.png
+docs/ZENODO/IMAGES/imgCamera2_3_2048_0.png
+docs/ZENODO/IMAGES/imgCamera2_3_512_0.png
+docs/ZENODO/IMAGES/imgCamera2_4 (2)_0_0.png
+docs/ZENODO/IMAGES/imgCamera2_4 (2)_1536_0.png
+docs/ZENODO/IMAGES/imgCamera2_4 (2)_512_512.png
+docs/ZENODO/IMAGES/imgCamera2_5 (2)_0_2048.png
+docs/ZENODO/IMAGES/imgCamera2_5 (2)_1024_512.png
+docs/ZENODO/IMAGES/imgCamera2_5 (2)_512_1536.png
+docs/ZENODO/IMAGES/imgCamera3_1 (2)_2048_0.png
+docs/ZENODO/IMAGES/imgCamera3_1 (2)_2048_2560.png
+docs/ZENODO/IMAGES/imgCamera3_1_0_1536.png
+docs/ZENODO/IMAGES/imgCamera3_1_1024_1024.png
+docs/ZENODO/IMAGES/imgCamera3_1_2048_1024.png
+docs/ZENODO/IMAGES/imgCamera3_1_512_2048.png
+docs/ZENODO/IMAGES/imgCamera3_2_0_0.png
+docs/ZENODO/IMAGES/imgCamera3_2_2048_1536.png
+docs/ZENODO/IMAGES/imgCamera3_2_2048_2048.png
+docs/ZENODO/IMAGES/imgCamera3_2_512_0.png
+docs/ZENODO/IMAGES/imgCamera3_2_512_1024.png
+docs/ZENODO/IMAGES/imgCamera3_2_512_512.png
+docs/ZENODO/IMAGES/imgCamera3_5 (2)_512_512.png
+docs/source/cli.rst
+docs/source/conf.py
+docs/source/index.rst
+docs/source/inputformats.rst
+docs/source/outputformats.rst
+docs/source/qualityassessment.rst
+docs/source/quickstart.rst
+docs/source/_static/theme_overrides.css
+src/yellowgreenmulti/__init__.py
+src/yellowgreenmulti/cli.py
+src/yellowgreenmulti/cliutils.py
+src/yellowgreenmulti/version.py
+src/yellowgreenmulti/yellowgreenmultiutils.py
+src/yellowgreenmulti.egg-info/PKG-INFO
+src/yellowgreenmulti.egg-info/SOURCES.txt
+src/yellowgreenmulti.egg-info/dependency_links.txt
+src/yellowgreenmulti.egg-info/entry_points.txt
+src/yellowgreenmulti.egg-info/requires.txt
+src/yellowgreenmulti.egg-info/top_level.txt

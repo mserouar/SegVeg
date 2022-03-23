@@ -1,0 +1,7 @@
+
+[dev]
+pylint>2
+m2r2>=0.2.6
+sphinx>=3.2
+sphinxcontrib-autoprogram
+sphinx_rtd_theme>=0.5
