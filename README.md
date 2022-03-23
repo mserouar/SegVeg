@@ -44,6 +44,8 @@ Then, the segmented vegetation pixels are classified into Green/Senescent vegeta
 Here, you will only find the Second stage (yellow part in Figure above).
 To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
 
+**If you have any question, please do not hesitate to open an issue.**
+
 ## 📦 DATA <a name="models"></a>
 
 #### 1. Features (If you would like to train a new model, if not just use given model on images through launching command)
