@@ -2,7 +2,7 @@
 
 <div align="center">
 	
-![logo](https://i.ibb.co/dc1XdhT/Segmentation-Models-V2-Side-1-1.png)
+![logo](https://ibb.co/r3Jsfwz)
 **Python module for Senescent Vegetation Image Segmentation based on SVM.**
 	
 ⚠️**SegVeg+ is available with better estimation, contact me to get the whole new model**⚠️
