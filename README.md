@@ -94,7 +94,7 @@ If you find this work useful in your research (Python module, model or Dataset),
 #### Paper <a name="Paper"></a>
 
 ```
-@article {Serouart2022.03.24.485604,
+@article {SegVeg,
 	author = {Serouart, Mario and Madec, Simon and David, Etienne and Velumani, Kaaviya and Lozano, Raul Lopez and Weiss, Marie and Baret, Frederic},
 	title = {SegVeg: Segmenting RGB images into green and senescent vegetation by combining deep and shallow methods},
 	elocation-id = {2022.03.24.485604},
