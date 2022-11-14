@@ -37,6 +37,8 @@ dataset, rendering segmentation accessible to a broad audience by requiring neit
 manual annotation nor knowledge, or at least, a pre-trained model to more specific
 use.
 
+LINK TO PDF ORIGINAL PAPER : https://spj.sciencemag.org/journals/plantphenomics/2022/9803570/
+
 ### ⏳ Useful information <a name="start"></a>
 
 The method proposed in [[paper](https://spj.sciencemag.org/journals/plantphenomics/2022/9803570/)]  may be described in two stages. 
