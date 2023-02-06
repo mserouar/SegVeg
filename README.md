@@ -3,53 +3,31 @@
 <div align="center">
 	
 ![logo](https://i.ibb.co/W01tp2M/fig-1.png)
+
 	
 **Python module for Senescent Vegetation Image Segmentation based on SVM.**
 	
 
-	
+
 </div>
 
 
 ## 📚 ABSTRACT
 
-The pixels segmentation of high resolution RGB images into background, green
-vegetation and senescent vegetation classes is a first step often required before
-estimating key traits of interest including the vegetation fraction, the green area index,
-or to characterize the sanitary state of the crop.  We developed the SegVeg model for
-semantic segmentation of RGB images into the three classes of interest. It is based on
-a U-net model that separates the vegetation from the background. It was trained over a
-very large and diverse dataset. The vegetation pixels are then classified using a SVM
-shallow machine learning technique trained over pixels extracted from grids applied to
-images.
-
-Results show that the SegVeg model allows to segment accurately the three classes,
-with however some confusion mainly between the background and the senescent
-vegetation, particularly over the dark and bright parts of the images. The use of the
-components of several color spaces allows to better classify the vegetation pixels into
-green and senescent ones. Finally, the model is used to predict the fraction of the three
-classes over the grids pixels or the whole images. Results show that the green fraction
-is very well estimated (R²=0.94), while the senescent and background fractions show
-slightly degraded performances (R²=0.70 and 0.73, respectively).
-
-We made SegVeg publicly available as a ready-to-use script, as well as the entire
-dataset, rendering segmentation accessible to a broad audience by requiring neither
-manual annotation nor knowledge, or at least, a pre-trained model to more specific
-use.
-
-LINK TO PDF ORIGINAL PAPER : https://spj.sciencemag.org/journals/plantphenomics/2022/9803570/
+SegVeg is a model for semantic segmentation of RGB images into background, green vegetation and senescent vegetation classes.
+Link to iriginal published paper : https://spj.sciencemag.org/journals/plantphenomics/2022/9803570/
 
 ### ⏳ Useful information <a name="start"></a>
 
-The method proposed in [[paper](https://spj.sciencemag.org/journals/plantphenomics/2022/9803570/)]  may be described in two stages. 
+The method proposed may be described in two stages. 
 
 In the first stage, the whole image is classified into Vegetation/Background mask using a U-net type Deep Learning network.
 Then, the segmented vegetation pixels are classified into Green/Senescent vegetation using a binary SVM. 
 
 Here, you will only find the Second stage (yellow part in Figure above).
-To perform the first stage, please find more information on : ⌚ **WORK IN PROGRESS** ⌚
+To perform the first stage, please find more information on : ⌚ https://github.com/simonMadec/VegAnn ⌚
 
- 🍎 **If you have any question, please open an issue**
+**If you have any question, please open an issue**
 
 ## 📦 DATA <a name="models"></a>
 
@@ -66,7 +44,7 @@ To perform the first stage, please find more information on : ⌚ **WORK IN PROG
 
 All colorspaces transformations are available in native script ```src/yellowgreenmulti/yellowgreenmultiutils.py```
 
-#### 2. DATA (XGBoost used by default in config file)
+#### 2. Data + Model (XGBoost used by default in config file)
 
 	__MODELS__
 
@@ -82,8 +60,6 @@ All colorspaces transformations are available in native script ```src/yellowgree
 	__RGB IMAGES AND MASKS__
 
 [[DATASET](XXX)] : RGB images and Vegetation/Background masks from LITERAL, PHENOMOBILE AND LITERAL domains used to perform accuracy model
-
-(Available in Zenodo platform following link)
 
 	__Ready-to-use__
 
