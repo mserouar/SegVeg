@@ -5,7 +5,7 @@
 ![logo](https://i.ibb.co/W01tp2M/fig-1.png)
 
 	
-**Python module for Senescent Vegetation Image Segmentation based on SVM.**
+**Python module for Senescent Vegetation Image Segmentation based on SVM/XGBoost.**
 	
 
 
@@ -26,8 +26,6 @@ Then, the segmented vegetation pixels are classified into Green/Senescent vegeta
 
 Here, you will only find the Second stage (yellow part in Figure above).
 To perform the first stage, please find more information on : ⌚ https://github.com/simonMadec/VegAnn ⌚
-
-**If you have any question, please open an issue**
 
 ## 📦 DATA <a name="models"></a>
 
@@ -85,9 +83,12 @@ If you find this work useful in your research (Python module, model or Dataset),
 | :------------- |:-------------|
 | input_folder      | Directory of the session you want to process : **"PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/"** | 
 | configuration_file       | Configuration file for hyperparameters tuning : **"PATH/FROM/GITHUB/config/yellowConfiguration.json"** | 
+##
 
+**/!\ Please modify PATH/FROM/GITHUB/ acording to your path in 2 shel args + in .json config file with model XGBoost path**  
+##
 ```
-EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/' 'PATH/FROM/GITHUB/config/yellowConfiguration.json'
+EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/''PATH/FROM/GITHUB/config/yellowConfiguration.json'
 ```
 
 #### 2. Understanding the config file
