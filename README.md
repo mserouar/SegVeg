@@ -85,7 +85,7 @@ If you find this work useful in your research (Python module, model or Dataset),
 | configuration_file       | Configuration file for hyperparameters tuning : **"PATH/FROM/GITHUB/config/yellowConfiguration.json"** | 
 ##
 
-**/!\ Please modify PATH/FROM/GITHUB/ acording to your path in 2 shel args + in .json config file with model XGBoost path**  
+**/!\ Please modify PATH/FROM/GITHUB/ acording to your path in both shell args + in .json config file with model XGBoost path**  
 ##
 ```
 EXAMPLE in shell :  yellowgreen-multi 'PATH/FROM/GITHUB/docs/DATA/Session 2021-03-17 14-19-59/''PATH/FROM/GITHUB/config/yellowConfiguration.json'
