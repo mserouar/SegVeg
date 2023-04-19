@@ -2,8 +2,7 @@
 
 <div align="center">
 	
-![logo](https://i.ibb.co/W01tp2M/fig-1.png)
-
+![workflow](https://user-images.githubusercontent.com/57948061/233082903-ae8189a2-fd3b-45c4-9f8c-6fcc9dd51a84.png)
 	
 **Python module for Senescent Vegetation Image Segmentation based on SVM/XGBoost.**
 	
