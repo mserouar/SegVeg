@@ -69,7 +69,7 @@ If you find this work useful in your research (Python module, model or Dataset),
 #### Paper <a name="Paper"></a>
 
 ```
- @article{SegVeg, title={Segveg: Segmenting RGB images into green and senescent vegetation by combining deep and shallow methods}, volume={2022}, DOI={10.34133/2022/9803570}, journal={Plant Phenomics}, author={Serouart, Mario and Madec, Simon and David, Etienne and Velumani, Kaaviya and Lopez Lozano, Raul and Weiss, Marie and Baret, Frédéric}, year={2022}, pages={1–17}} 
+Serouart Mario Madec Simon David Etienne Velumani Kaaviya Lopez Lozano Raul Weiss Marie Baret Frédéric . SegVeg: Segmenting RGB Images into Green and Senescent Vegetation by Combining Deep and Shallow Methods. Plant Phenomics. 2022;2022:DOI:10.34133/2022/9803570
 
 ```
 
