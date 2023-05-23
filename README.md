@@ -2,11 +2,10 @@
 
 <div align="center">
 	
-![logo](https://i.ibb.co/W01tp2M/fig-1.png)
+![download (1)](https://github.com/mserouar/SegVeg/assets/57948061/82030dac-c7d9-4bf5-a06c-fc73ff0575fa)
 	
 **Python module for Senescent Vegetation Image Segmentation based on SVM/XGBoost.**
 	
-
 
 </div>
 
@@ -14,9 +13,9 @@
 ## 📚 ABSTRACT
 
 SegVeg is a model for semantic segmentation of RGB images into background, green vegetation and senescent vegetation classes.
-Link to iriginal published paper : https://spj.sciencemag.org/journals/plantphenomics/2022/9803570/
+Link to original published paper : https://spj.sciencemag.org/journals/plantphenomics/2022/9803570/
 
-### ⏳ Useful information <a name="start"></a>
+### Useful information <a name="start"></a>
 
 The method proposed may be described in two stages. 
 
@@ -24,7 +23,37 @@ In the first stage, the whole image is classified into Vegetation/Background mas
 Then, the segmented vegetation pixels are classified into Green/Senescent vegetation using a binary SVM. 
 
 Here, you will only find the Second stage (yellow part in Figure above).
-To perform the first stage, please find more information on : ⌚ https://github.com/simonMadec/VegAnn ⌚
+To perform the first stage, please find more information on : https://github.com/simonMadec/VegAnn
+
+
+## 📝 Citing
+
+If you find this work useful in your research (Python module, model or Dataset), please cite both papers :
+
+#### Paper Senescent Green Vegetation segmentation <a name="Paper"></a>
+
+Serouart Mario Madec Simon David Etienne Velumani Kaaviya Lopez Lozano Raul Weiss Marie Baret Frédéric . SegVeg: Segmenting RGB Images into Green and Senescent Vegetation by Combining Deep and Shallow Methods. Plant Phenomics. 2022;2022:DOI:10.34133/2022/9803570
+
+#### Paper Vegatation Background segmentation <a name="Paper"></a>
+
+Madec, S., Irfan, K., Velumani, K. et al. VegAnn, Vegetation Annotation of multi-crop RGB images acquired under diverse conditions for segmentation. Sci Data 10, 302 (2023). https://doi.org/10.1038/s41597-023-02098-y
+
+
+
+## ☸️ How to use
+
+Simply lauch the given .ipynb google collab in main directory
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+Please follow below instructions if you want to know more (Docker, Bash command, Dev mode, Features, Supp. Materials, ...)
+<br>
 
 ## 📦 DATA <a name="models"></a>
 
@@ -62,16 +91,7 @@ All colorspaces transformations are available in native script ```src/yellowgree
 
 [[Session 2021-03-17 14-19-59](https://github.com/mserouar/SegVeg/tree/main/docs/DATA/Session%202021-03-17%2014-19-59)] : Test Session 
 
-## 📝 Citing
 
-If you find this work useful in your research (Python module, model or Dataset), please cite:
-
-#### Paper <a name="Paper"></a>
-
-```
-Serouart Mario Madec Simon David Etienne Velumani Kaaviya Lopez Lozano Raul Weiss Marie Baret Frédéric . SegVeg: Segmenting RGB Images into Green and Senescent Vegetation by Combining Deep and Shallow Methods. Plant Phenomics. 2022;2022:DOI:10.34133/2022/9803570
-
-```
 
 ## ☸️ How to use
 
