@@ -42,7 +42,7 @@ Madec, S., Irfan, K., Velumani, K. et al. VegAnn, Vegetation Annotation of multi
 
 ## ☸️ How to use
 
-Simply lauch the given .ipynb google collab in main directory
+```Simply lauch the given .ipynb google collab in main directory :``` https://github.com/mserouar/SegVeg/blob/main/VegAnn_%2B_SegVeg.ipynb
 
 <br>
 <br>
