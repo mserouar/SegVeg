@@ -2,8 +2,8 @@
 
 <div align="center">
 	
-![download (1)](https://github.com/mserouar/SegVeg/assets/57948061/82030dac-c7d9-4bf5-a06c-fc73ff0575fa)
-	
+![Screen_out](https://github.com/mserouar/SegVeg/assets/57948061/59b35711-baee-43c2-9336-0e3ddc8dd5b1)
+
 **Python module for Senescent Vegetation Image Segmentation based on SVM/XGBoost.**
 	
 
