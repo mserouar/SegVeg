@@ -1,4 +1,4 @@
-![Output](https://raw.githubusercontent.com/mserouar/SegVeg/dev/concatenated_output.jpg)
+![Output](https://raw.githubusercontent.com/mserouar/SegVeg/dev/concatenatedoutput.jpg)
 
 # Vegetation Segmentation with VegAnn
 
