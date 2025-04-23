@@ -6,7 +6,7 @@ This notebook shows how to apply semantic segmentation with the Unet model tuned
 
 Madec, S., Irfan, K., Velumani, K. et al. VegAnn, Vegetation Annotation of multi-crop RGB images acquired under diverse conditions for segmentation. Sci Data 10, 302 (2023). https://doi.org/10.1038/s41597-023-02098-y
 
-Author : Simon Madec + Mario Serouart (paper | notebook)
+Author : Simon Madec (paper | notebook) + Mario Serouart (paper | notebook)
 
 # Senescent Segmentation with SegVeg
 
@@ -14,7 +14,7 @@ This section shows how to apply semantic segmentation with the SVM | XGBoost mod
 
 Serouart Mario Madec Simon David Etienne Velumani Kaaviya Lopez Lozano Raul Weiss Marie Baret Frédéric. SegVeg: Segmenting RGB Images into Green and Senescent Vegetation by Combining Deep and Shallow Methods. Plant Phenomics (2022). https://doi.org/10.34133/2022/9803570.
 
-Authors : Mario Serouart | Simon Madec (paper)
+Authors : Mario Serouart (paper | notebook) | Simon Madec (paper)
 
 
 # Senescent + Necrosis Segmentation with improved SegVeg by ETHZ
