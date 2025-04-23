@@ -1,4 +1,4 @@
-![Output](https://raw.githubusercontent.com/mserouar/SegVeg/dev/concatenatedoutput.jpg)
+![concatenated_output](https://github.com/user-attachments/assets/6e38bbcb-0868-495e-8099-7b21c465c229)
 
 # Vegetation Segmentation with VegAnn
 
@@ -469,9 +469,7 @@ print("VegAnn model succeeded ✅")
 ```
 
 
-    
-![png](SegVeg_files/SegVeg_9_0.png)
-    
+![concatenated_output_vg](https://github.com/user-attachments/assets/61ce2c4d-9fe4-43e2-afb7-e534acff710b)
 
 
     VegAnn model succeeded ✅
@@ -499,15 +497,6 @@ for attr in new_attrs:
 model_path = "/content/Necrosis.pkl"
 model_Necrosis = pickle.load(Path(model_path).open("rb"))
 ```
-
-    [11:11:18] WARNING: ../src/gbm/gbtree.cc:386: Loading from a raw memory buffer on CPU only machine.  Changing tree_method to hist.
-    [11:11:18] WARNING: ../src/learner.cc:223: No visible GPU is found, setting `gpu_id` to -1
-
-
-    /usr/local/lib/python3.11/dist-packages/sklearn/base.py:380: InconsistentVersionWarning: Trying to unpickle estimator SVC from version 0.23.2 when using version 1.6.1. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
-    https://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations
-      warnings.warn(
-
 
 # Import utils functions
 
@@ -811,35 +800,20 @@ for i in list_images :
 print("All images processed succeeded ✅")
 print("END ✅")
 ```
+![1_concatenated_output](https://github.com/user-attachments/assets/bf9769f4-0b47-4737-b125-659fec6e1262)
 
-
+    /content/ESWW0003_20220701_soil1202205233_fake_1.png succeeded ✅
     
-![png](SegVeg_files/SegVeg_16_0.png)
+![2_concatenated_output](https://github.com/user-attachments/assets/359b7fb1-b129-4214-83d6-faa65b507e66)
+
+
+    /content/ESWW0060033_20220617_BF0A9824_fake_2.png succeeded ✅
+
+![3_concatenated_output](https://github.com/user-attachments/assets/e75f21fd-5b9f-4bf9-8aa2-7b91777befee)
+
+
+    /content/ESWWpermanent4_20220613_soil_permanent2_20220521_fake_4.png succeeded ✅
     
-
-
-    /content/ESWW0003_20220701_soil1202205233_fake_1.png
-    succeeded ✅
-
-
-
-    
-![png](SegVeg_files/SegVeg_16_2.png)
-    
-
-
-    /content/ESWW0060033_20220617_BF0A9824_fake_2.png
-    succeeded ✅
-
-
-
-    
-![png](SegVeg_files/SegVeg_16_4.png)
-    
-
-
-    /content/ESWWpermanent4_20220613_soil_permanent2_20220521_fake_4.png
-    succeeded ✅
     All images processed succeeded ✅
     END ✅
 
