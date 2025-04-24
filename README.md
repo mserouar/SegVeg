@@ -30,13 +30,14 @@ Authors : Jonas Anderegg  (paper | notebook) + Mario Serouart (notebook)
 
 # Information
 
-⚠️ 
-If you find this work useful in your research (Python module, models or Dataset), please cite **ALL** mentioned papers above.
-
 📚 
 All data needed to run this notebook/markdown are available in **Realeases** SegVeg Data (v1.1.0) : https://github.com/mserouar/SegVeg/releases/tag/v1.1.0
 
-Please, not also that previous version of this repo is still available in **main** branch. This current branch, i.e. **dev** became the default one.
+Please, note also that previous version of this repo is still available in **main** branch. This current branch, i.e. **dev** became the default one.
+
+⚠️ 
+If you find this work useful in your research (Python module, models or Dataset), please cite **ALL** mentioned papers above⚠️
+
 
 # Install libraries
 
